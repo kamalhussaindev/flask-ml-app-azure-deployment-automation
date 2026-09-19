@@ -34,3 +34,4 @@ jobs:
           images: |
             flask-app=breast-cancer-container
             mysql-db=cadfep-mysql
+          package: .
