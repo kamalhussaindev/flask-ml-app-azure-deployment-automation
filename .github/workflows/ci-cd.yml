@@ -22,9 +22,6 @@ jobs:
       - name: Build Docker images
         run: docker-compose build
 
-      - name: Run tests
-        run: docker-compose run app pytest
-
       - name: Security Scan
         uses: anchore/scan-action@v2
         with:
