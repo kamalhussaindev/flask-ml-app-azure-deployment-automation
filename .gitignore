@@ -1,0 +1,18 @@
+# Python virtual environment
+Lib/
+Scripts/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Static images
+static/**/*.jpg
+static/**/*.jpeg
+static/**/*.png
+static/**/*.gif
+static/**/*.webp
+static/**/*.svg

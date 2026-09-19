@@ -1,0 +1,13 @@
+Flask
+Flask-MySQLdb
+mysqlclient
+Flask-WTF
+WTForms
+passlib
+tensorflow
+numpy
+Pillow
+opencv-python
+pdfkit
+Flask-Mail
+gunicorn
