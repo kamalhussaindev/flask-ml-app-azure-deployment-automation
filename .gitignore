@@ -1,18 +1,17 @@
-# Python virtual environment
 Lib/
 Scripts/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# Environment variables
 .env
+pyvenv.cfg
 
-# Static images
-static/**/*.jpg
-static/**/*.jpeg
-static/**/*.png
-static/**/*.gif
-static/**/*.webp
-static/**/*.svg
+# Ignore uploaded images
+static/uploads/
+
+# Keep application images
+!static/img/
+!static/img/**
+
+# Keep ML model
+!static/models/
+!static/models/**
