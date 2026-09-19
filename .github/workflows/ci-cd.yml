@@ -34,9 +34,11 @@
                repository: your-docker-hub-username/breast-cancer-app
                tag_with_ref: true
 
-           - name: Deploy to Azure VM
+           - name: Deploy to Azure Web App
              uses: azure/webapps-deploy@v2
              with:
-               app-name: breast-cancer-app
-               publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-               images: kamalhussain611/breast-cancer-app:latest
+              app-name: ${{ secrets.AZURE_WEBAPP_NAME }}
+              images: 'your-docker-hub-username/breast-cancer-app:latest'
+              client-id: ${{ secrets.AZURE_SP_APP_ID }}
+              client-secret: ${{ secrets.AZURE_SP_PASSWORD }}
+              tenant-id: ${{ secrets.AZURE_SP_TENANT }}
