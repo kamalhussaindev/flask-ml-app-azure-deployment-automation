@@ -11,16 +11,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: Set up Docker Compose
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build and Push Docker image
         run: |
-          sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-          sudo chmod +x /usr/local/bin/docker-compose
-          docker-compose version
-
-      - name: Build Docker images
-        run: docker-compose build
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:latest .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:${{ github.sha }} .
+          docker push ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:${{ github.sha }}
 
       - name: Azure Login
         uses: azure/login@v1
@@ -31,7 +36,4 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ secrets.AZURE_WEBAPP_NAME }}
-          images: |
-            flask-app=breast-cancer-container
-            mysql-db=cadfep-mysql
-          package: .
+          images: ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:${{ github.sha }}
