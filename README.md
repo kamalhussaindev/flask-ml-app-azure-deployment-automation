@@ -86,6 +86,17 @@ A full-stack medical imaging web application that classifies breast cancer histo
   </tr>
 </table>
 
+### Prediction Result
+
+<table>
+  <tr>
+    <td align="center"><b>VGG16 Classification Output</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/prediction-result.png" width="600"/></td>
+  </tr>
+</table>
+
 ### Azure Infrastructure
 
 <table>
@@ -106,6 +117,45 @@ A full-stack medical imaging web application that classifies breast cancer histo
     <td><img src="screenshots/environment-variables.png" width="400"/></td>
   </tr>
 </table>
+
+### Docker & DevOps
+
+<table>
+  <tr>
+    <td align="center"><b>Docker Images</b></td>
+    <td align="center"><b>Multi-Stage Dockerfile</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/docker-images.png" width="400"/></td>
+    <td><img src="screenshots/dockerfile.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Site Containers (Main + MySQL Sidecar)</b></td>
+    <td align="center"><b>Live Health Check (HTTP 200)</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/site-containers.png" width="400"/></td>
+    <td><img src="screenshots/health-check.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Git Commit History</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/git-log.png" width="400"/></td>
+    <td></td>
+  </tr>
+</table>
+
+---
+
+## 🔑 Live Demo
+
+> 🌐 **[Try it live](https://breast-cancer-classfication-system-h2dzeyetejehh8f0.eastasia-01.azurewebsites.net/login)**
+>
+> **Doctor Login:** `docktor611` / `Kamal@123`
+>
+> Upload a histopathology image → click **Predict** → see VGG16 classification result
 
 ---
 
@@ -166,13 +216,13 @@ docker-compose up -d
 ### Step 1 — Build and push Docker images
 
 ```bash
-# Flask application
+# Flask application (multi-stage build)
 docker build -t <your-dockerhub>/breast-cancer-app:latest .
 docker push <your-dockerhub>/breast-cancer-app:latest
 
 # Custom MySQL with baked-in schema
-docker build -f Dockerfile.mysql -t <your-dockerhub>/breast-cancer-mysql:1.0 .
-docker push <your-dockerhub>/breast-cancer-mysql:1.0
+docker build -f Dockerfile.mysql -t <your-dockerhub>/breast-cancer-mysql:latest .
+docker push <your-dockerhub>/breast-cancer-mysql:latest
 ```
 
 ### Step 2 — Create Azure App Service
@@ -192,14 +242,22 @@ az webapp create \
   --container-image-name <your-dockerhub>/breast-cancer-app:latest
 ```
 
-### Step 3 — Add MySQL sidecar
+### Step 3 — Enable Site Containers mode and add MySQL sidecar
 
 ```bash
-az webapp sitecontainers set \
+# Switch to multi-container mode
+az webapp config set \
+  --name <your-app-name> \
+  --resource-group flask-ml-app-rg \
+  --linux-fx-version "SITECONTAINERS"
+
+# Add MySQL as a sidecar container
+az webapp sitecontainers create \
   --name <your-app-name> \
   --resource-group flask-ml-app-rg \
   --container-name mysql \
-  --image <your-dockerhub>/breast-cancer-mysql:1.0
+  --image <your-dockerhub>/breast-cancer-mysql:latest \
+  --is-main false
 ```
 
 ### Step 4 — Configure environment variables
@@ -209,10 +267,20 @@ az webapp config appsettings set \
   --name <your-app-name> \
   --resource-group flask-ml-app-rg \
   --settings \
-    MYSQL_HOST=localhost \
+    MYSQL_HOST=127.0.0.1 \
     MYSQL_PORT=3306 \
-    MYSQL_USER=root \
+    MYSQL_ROOT_PASSWORD=<your-password> \
+    MYSQL_DATABASE=epca \
     MYSQL_DB=epca
+```
+
+### Step 5 — Restart and verify
+
+```bash
+az webapp restart --name <your-app-name> --resource-group flask-ml-app-rg
+
+# Wait 3-5 minutes for MySQL to initialize, then verify
+curl -I https://<your-app-name>.azurewebsites.net
 ```
 
 ---
@@ -224,6 +292,7 @@ flask-ml-app-azure-deployment-automation/
 ├── app.py                    # Main Flask application
 ├── Dockerfile                # Multi-stage Flask app image
 ├── Dockerfile.mysql          # Custom MySQL with baked-in schema
+├── start.sh                  # Entrypoint script (MySQL wait + env config)
 ├── docker-compose.yml        # Local multi-container setup
 ├── requirements.txt          # Python dependencies
 ├── epca.sql                  # Database schema and seed data
@@ -274,5 +343,5 @@ This project is for educational and portfolio purposes.
 **Kamal Hussain**
 
 - GitHub: [@kamalhussaindev](https://github.com/kamalhussaindev)
-- LinkedIn: [Connect with me](https://linkedin.com/in/YOUR-LINKEDIN-HANDLE)
+- LinkedIn: [Connect with me](https://linkedin.com/in/kamalhussaindev)
 - Email: kamalhussaindev@gmail.com
