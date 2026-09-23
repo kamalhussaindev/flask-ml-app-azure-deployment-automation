@@ -1,0 +1,12 @@
+2026-09-23T13:20:30.1183606Z Site is running with deployment version: c9a477e26792d5b34210bedab9ffdf25c88c577d1790168316851
+2026-09-23T13:20:30.1240939Z Site started.
+2026-09-23T13:20:30.1249496Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/23/2026 13:20:30 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2612980Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:08:27 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2619528Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:08:27 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2690473Z Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:20:50.2921507Z Stop and delete container. Retry count = 0
+2026-09-23T13:20:50.2922094Z Stopping container: 2703af0cded8_breast-cancer-classfication-system.
+2026-09-23T13:20:51.4211729Z Deleting container: 2703af0cded8_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T13:20:51.6908179Z Container spec TerminationMessagePolicy  path 
+2026-09-23T13:20:51.6917727Z Container is terminated. Total time elapsed: 1422 ms.
+2026-09-23T13:20:51.6921906Z Site: breast-cancer-classfication-system stopped.

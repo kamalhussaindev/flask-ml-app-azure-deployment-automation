@@ -1,0 +1,117 @@
+2026-09-21T09:00:01.0914261Z 2026-09-21T09:00:01.091298Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2026-09-21T09:00:11.8393675Z 2026-09-21 09:00:11+00:00 [Note] [Entrypoint]: Database files initialized
+2026-09-21T09:00:11.8482296Z 2026-09-21 09:00:11+00:00 [Note] [Entrypoint]: Starting temporary server
+2026-09-21T09:00:12.8845858Z 2026-09-21T09:00:12.793380Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:00:12.8851878Z 2026-09-21T09:00:12.802626Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 118
+2026-09-21T09:00:12.9642325Z 2026-09-21T09:00:12.964095Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:00:14.6211191Z 2026-09-21T09:00:14.620776Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:00:16.0034112Z 2026-09-21T09:00:16.003226Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:00:16.0086434Z 2026-09-21T09:00:16.008571Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:00:16.0212299Z 2026-09-21T09:00:16.020991Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:00:16.1214126Z 2026-09-21T09:00:16.121302Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2026-09-21T09:00:16.1293809Z 2026-09-21T09:00:16.122116Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:00:16.2175908Z 2026-09-21 09:00:16+00:00 [Note] [Entrypoint]: Temporary server started.
+2026-09-21T09:00:16.4735372Z '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+2026-09-21T09:00:19.8418497Z Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+2026-09-21T09:00:19.8426064Z Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+2026-09-21T09:00:19.8433162Z Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.
+2026-09-21T09:00:25.1079187Z Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.
+2026-09-21T09:00:25.1083554Z Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+2026-09-21T09:00:25.1171677Z Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+2026-09-21T09:00:25.5606261Z 2026-09-21 09:00:25+00:00 [Note] [Entrypoint]: Creating database epca
+2026-09-21T09:00:25.6514209Z 2026-09-21 09:00:25+00:00 [Note] [Entrypoint]: Creating user breastapp
+2026-09-21T09:00:25.7504992Z 2026-09-21 09:00:25+00:00 [Note] [Entrypoint]: Giving user breastapp access to schema epca
+2026-09-21T09:00:25.8021902Z 
+2026-09-21T09:00:25.8130205Z 2026-09-21 09:00:25+00:00 [Note] [Entrypoint]: Stopping temporary server
+2026-09-21T09:00:25.8649570Z 2026-09-21T09:00:25.864845Z 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:00:27.0639632Z 2026-09-21T09:00:27.063836Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+2026-09-21T09:00:27.9715556Z 2026-09-21 09:00:27+00:00 [Note] [Entrypoint]: Temporary server stopped
+2026-09-21T09:00:27.9715851Z 
+2026-09-21T09:00:27.9832880Z 2026-09-21 09:00:27+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+2026-09-21T09:00:27.9833064Z 
+2026-09-21T09:00:29.3181005Z 2026-09-21T09:00:29.214882Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:00:29.3255867Z 2026-09-21T09:00:29.218033Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 1
+2026-09-21T09:00:29.3549245Z 2026-09-21T09:00:29.348257Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:00:30.8599661Z 2026-09-21T09:00:30.859864Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:00:32.4573007Z 2026-09-21T09:00:32.457174Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:00:32.4581783Z 2026-09-21T09:00:32.458118Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:00:32.4756089Z 2026-09-21T09:00:32.474551Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:00:32.6162782Z 2026-09-21T09:00:32.608386Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2026-09-21T09:00:32.6163218Z 2026-09-21T09:00:32.615383Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:00:39.4456347Z [2026-09-21 09:00:39,435] ERROR in app: Exception on /login [POST]
+2026-09-21T09:00:39.4520469Z Traceback (most recent call last):
+2026-09-21T09:00:39.4520561Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:00:39.4520577Z     response = self.full_dispatch_request()
+2026-09-21T09:00:39.4520594Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:00:39.4520620Z     rv = self.handle_user_exception(e)
+2026-09-21T09:00:39.4520639Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:00:39.4520740Z     rv = self.dispatch_request()
+2026-09-21T09:00:39.4520758Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:00:39.4520776Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:00:39.4520791Z   File "/app/app.py", line 224, in login
+2026-09-21T09:00:39.4520806Z     result = cur.execute("SELECT * from user WHERE username = %s ",[username])
+2026-09-21T09:00:39.4520822Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+2026-09-21T09:00:39.4520834Z     res = self._query(mogrified_query)
+2026-09-21T09:00:39.4520850Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+2026-09-21T09:00:39.4520862Z     db.query(q)
+2026-09-21T09:00:39.4520878Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 280, in query
+2026-09-21T09:00:39.4520892Z     _mysql.connection.query(self, query)
+2026-09-21T09:00:39.4520933Z MySQLdb.ProgrammingError: (1146, "Table 'epca.user' doesn't exist")
+2026-09-21T09:00:45.7521601Z [2026-09-21 09:00:45,750] ERROR in app: Exception on /login [POST]
+2026-09-21T09:00:45.7521898Z Traceback (most recent call last):
+2026-09-21T09:00:45.7521921Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:00:45.7521936Z     response = self.full_dispatch_request()
+2026-09-21T09:00:45.7521952Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:00:45.7521969Z     rv = self.handle_user_exception(e)
+2026-09-21T09:00:45.7521986Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:00:45.7521999Z     rv = self.dispatch_request()
+2026-09-21T09:00:45.7522015Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:00:45.7522031Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:00:45.7522115Z   File "/app/app.py", line 224, in login
+2026-09-21T09:00:45.7522132Z     result = cur.execute("SELECT * from user WHERE username = %s ",[username])
+2026-09-21T09:00:45.7522147Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+2026-09-21T09:00:45.7522160Z     res = self._query(mogrified_query)
+2026-09-21T09:00:45.7522176Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+2026-09-21T09:00:45.7522188Z     db.query(q)
+2026-09-21T09:00:45.7522204Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 280, in query
+2026-09-21T09:00:45.7522217Z     _mysql.connection.query(self, query)
+2026-09-21T09:00:45.7522232Z MySQLdb.ProgrammingError: (1146, "Table 'epca.user' doesn't exist")
+2026-09-21T09:04:14.7092147Z [2026-09-21 09:04:14,703] ERROR in app: Exception on /login [POST]
+2026-09-21T09:04:14.7093245Z Traceback (most recent call last):
+2026-09-21T09:04:14.7093271Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:04:14.7093285Z     response = self.full_dispatch_request()
+2026-09-21T09:04:14.7093302Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:04:14.7094470Z     rv = self.handle_user_exception(e)
+2026-09-21T09:04:14.7094495Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:04:14.7094509Z     rv = self.dispatch_request()
+2026-09-21T09:04:14.7094525Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:04:14.7094541Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:04:14.7094556Z   File "/app/app.py", line 224, in login
+2026-09-21T09:04:14.7094571Z     result = cur.execute("SELECT * from user WHERE username = %s ",[username])
+2026-09-21T09:04:14.7094621Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+2026-09-21T09:04:14.7094635Z     res = self._query(mogrified_query)
+2026-09-21T09:04:14.7094650Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+2026-09-21T09:04:14.7094663Z     db.query(q)
+2026-09-21T09:04:14.7094679Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 280, in query
+2026-09-21T09:04:14.7094692Z     _mysql.connection.query(self, query)
+2026-09-21T09:04:14.7094708Z MySQLdb.ProgrammingError: (1146, "Table 'epca.user' doesn't exist")
+2026-09-21T09:04:58.4978973Z 2026-09-21 09:04:58+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:05:05.1908235Z [2026-09-21 09:05:05,189] ERROR in app: Exception on /login [POST]
+2026-09-21T09:05:05.1908569Z Traceback (most recent call last):
+2026-09-21T09:05:05.1908589Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:05:05.1908604Z     response = self.full_dispatch_request()
+2026-09-21T09:05:05.1908621Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:05:05.1908634Z     rv = self.handle_user_exception(e)
+2026-09-21T09:05:05.1908650Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:05:05.1908663Z     rv = self.dispatch_request()
+2026-09-21T09:05:05.1908679Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:05:05.1908696Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:05:05.1908709Z   File "/app/app.py", line 224, in login
+2026-09-21T09:05:05.1908724Z     result = cur.execute("SELECT * from user WHERE username = %s ",[username])
+2026-09-21T09:05:05.1908767Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+2026-09-21T09:05:05.1908781Z     res = self._query(mogrified_query)
+2026-09-21T09:05:05.1908796Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+2026-09-21T09:05:05.1908808Z     db.query(q)
+2026-09-21T09:05:05.1908828Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 280, in query
+2026-09-21T09:05:05.1908841Z     _mysql.connection.query(self, query)
+2026-09-21T09:05:05.1908855Z MySQLdb.ProgrammingError: (1146, "Table 'epca.user' doesn't exist")

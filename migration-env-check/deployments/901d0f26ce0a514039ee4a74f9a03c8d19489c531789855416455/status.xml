@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>901d0f26ce0a514039ee4a74f9a03c8d19489c531789855416455</id>
+  <author>kamalhussaindev</author>
+  <deployer>GitHub</deployer>
+  <authorEmail />
+  <message>{"type":"Deployment","sha":"901d0f26ce0a514039ee4a74f9a03c8d19489c53","repoName":"kamalhussaindev/flask-ml-app-azure-deployment-automation","actor":"kamalhussaindev","slotName":"production"}</message>
+  <progress />
+  <status>Success</status>
+  <statusText />
+  <lastSuccessEndTime>2026-09-19T22:03:39.8771712Z</lastSuccessEndTime>
+  <receivedTime>2026-09-19T22:03:39.8771712Z</receivedTime>
+  <startTime>2026-09-19T22:03:39.8771712Z</startTime>
+  <endTime>2026-09-19T22:03:39.8771712Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <containerId>64b0afe4c45c</containerId>
+  <deploymentTag />
+  <buildSummary />
+</deployment>

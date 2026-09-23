@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "image": "mysql:8.0",
+    "isMain": false,
+    "targetPort": null,
+    "environmentVariables": [],
+    "startUpCommand": "sleep 3600"
+  }
+}

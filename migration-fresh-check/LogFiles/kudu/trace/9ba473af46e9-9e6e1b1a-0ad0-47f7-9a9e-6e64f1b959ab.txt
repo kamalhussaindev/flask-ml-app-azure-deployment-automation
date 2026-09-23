@@ -1,0 +1,3 @@
+2026-09-19T22:58:55  Startup Request, url: /api/sitecontainers/main, method: GET, type: request, pid: 836,1,7, ScmType: None
+2026-09-19T22:58:56    Error occurred, type: error, text: Failed to get status for container - main
+2026-09-19T22:58:56    Outgoing response, type: response, statusCode: 500, statusText: InternalServerError

@@ -1,0 +1,1075 @@
+========== New Cold Start Attempt (2026-09-23T12:46:12.8823493+00:00) ==========
+2026-09-23T12:46:12.8823493+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:17.4437777+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:17.4441436+00:00 ContainerStatus: Container start method called.
+2026-09-23T12:46:17.4948004+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:46:17.4951025+00:00 ContainerStatus: Establishing network.
+2026-09-23T12:46:17.4960108+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773.
+2026-09-23T12:46:20.4633095+00:00 ContainerStatus: Container pull image interrupted. Revert by terminate.
+2026-09-23T12:46:20.4633760+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T12:46:20.4635187+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T12:46:20.5056020+00:00 ContainerStatus: Container is terminated. Total time elapsed: 19 ms.
+2026-09-23T12:46:20.5057250+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T12:46:20.5338889+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T12:46:20.6052199+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+========== New Cold Start Attempt (2026-09-23T12:46:21.9028867+00:00) ==========
+2026-09-23T12:46:21.9028867+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated. Stopping the entire site.
+2026-09-23T12:46:22.1240961+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:22.1540044+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:22.1545982+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:46:23.8034871+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:26.7198819+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:26.7199382+00:00 ContainerStatus: Container start method called.
+2026-09-23T12:46:26.7199651+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:46:26.7200002+00:00 ContainerStatus: Establishing network.
+2026-09-23T12:46:26.7200522+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773.
+2026-09-23T12:46:28.1776210+00:00 ContainerStatus: Container pull image interrupted. Revert by terminate.
+2026-09-23T12:46:28.1777085+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T12:46:28.1777807+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T12:46:28.1778300+00:00 ContainerStatus: Container is terminated. Total time elapsed: 0 ms.
+2026-09-23T12:46:28.1778862+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T12:46:28.1779818+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T12:46:28.1783026+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:28, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+========== New Cold Start Attempt (2026-09-23T12:50:06.3573123+00:00) ==========
+2026-09-23T12:50:06.3573123+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3584957+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3678166+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3678252+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:07.3339476+00:00 ContainerStream: [Previous Container] 2026-09-23T12:50:07.309926Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.46).
+2026-09-23T12:50:07.3900402+00:00 ContainerStream: [Previous Container] [2026-09-23 12:50:07 +0000] [1] [INFO] Handling signal: term
+2026-09-23T12:50:07.4445947+00:00 ContainerStream: [Previous Container] [2026-09-23 12:50:07 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T12:50:13.7789493+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:55:51.4043379+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:55:52.2608540+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2986712+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2990668+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2990997+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T13:20:30.1183606+00:00) ==========
+2026-09-23T13:20:30.1183606+00:00 ContainerStatus: Site is running with deployment version: c9a477e26792d5b34210bedab9ffdf25c88c577d1790168316851
+2026-09-23T13:20:30.1240939+00:00 ContainerStatus: Site started.
+2026-09-23T13:20:30.1249496+00:00 ContainerStatus: State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/23/2026 13:20:30 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2612980+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:08:27 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2619528+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:08:27 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2690473+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:20:50.2921507+00:00 ContainerStatus: Stop and delete container. Retry count = 0
+2026-09-23T13:20:50.2922094+00:00 ContainerStatus: Stopping container: 2703af0cded8_breast-cancer-classfication-system.
+2026-09-23T13:20:50.9641999+00:00 ContainerStream: [Previous Container] [2026-09-23 13:20:50 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T13:20:51.2848983+00:00 ContainerStream: [Previous Container] [2026-09-23 13:20:51 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T13:20:51.4211729+00:00 ContainerStatus: Deleting container: 2703af0cded8_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T13:20:51.6908179+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T13:20:51.6917727+00:00 ContainerStatus: Container is terminated. Total time elapsed: 1422 ms.
+2026-09-23T13:20:51.6921906+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T13:22:36.6831518+00:00 ContainerStream: [2026-09-23 13:22:36,674] ERROR in app: Exception on /login [POST]
+2026-09-23T13:22:36.6831899+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:22:36.6831923+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:22:36.6831939+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:22:36.6831957+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:22:36.6831990+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:22:36.6832008+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:22:36.6832023+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:22:36.6832041+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:22:36.6832063+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:22:36.6832078+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:22:36.6832134+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:22:36.6832152+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:22:36.6832166+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:22:36.6832184+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:22:36.6832199+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:22:36.6832217+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:22:36.6832234+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:22:36.6832252+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:22:36.6832266+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:22:36.6832283+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:22:45.8964211+00:00 ContainerStream: [2026-09-23 13:22:45,893] ERROR in app: Exception on /login [POST]
+2026-09-23T13:22:45.8964780+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:22:45.8964806+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:22:45.8964823+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:22:45.8964841+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:22:45.8964856+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:22:45.8964873+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:22:45.8964887+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:22:45.8964904+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:22:45.8964923+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:22:45.8964938+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:22:45.8964953+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:22:45.8964971+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:22:45.8965009+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:22:45.8965027+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:22:45.8965042+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:22:45.8965060+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:22:45.8965074+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:22:45.8965093+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:22:45.8965107+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:22:45.8965124+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:23:00.5312353+00:00 ContainerStream: [2026-09-23 13:23:00,529] ERROR in app: Exception on /login [POST]
+2026-09-23T13:23:00.5312811+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:23:00.5312839+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:23:00.5312866+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:23:00.5312944+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:23:00.5312961+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:23:00.5312980+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:23:00.5312995+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:23:00.5313015+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:23:00.5313033+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:23:00.5313049+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:23:00.5313065+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:23:00.5313083+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:23:00.5313099+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:23:00.5313117+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:23:00.5313132+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:23:00.5313174+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:23:00.5313189+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:23:00.5313207+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:23:00.5313222+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:23:00.5313239+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:23:19.2665121+00:00 ContainerStream: [2026-09-23 13:23:19,263] ERROR in app: Exception on /login [POST]
+2026-09-23T13:23:19.2665577+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:23:19.2665606+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:23:19.2665625+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:23:19.2665643+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:23:19.2665658+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:23:19.2665679+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:23:19.2665756+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:23:19.2665776+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:23:19.2665796+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:23:19.2665810+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:23:19.2665825+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:23:19.2665843+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:23:19.2665858+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:23:19.2665877+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:23:19.2665891+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:23:19.2665909+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:23:19.2665925+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:23:19.2665942+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:23:19.2665981+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:23:19.2665999+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:23:26.3814400+00:00 ContainerStream: [2026-09-23 13:23:26,373] ERROR in app: Exception on /login [POST]
+2026-09-23T13:23:26.3814858+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:23:26.3814881+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:23:26.3814898+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:23:26.3814916+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:23:26.3814931+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:23:26.3814950+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:23:26.3814964+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:23:26.3814982+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:23:26.3815000+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:23:26.3815014+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:23:26.3815030+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:23:26.3815048+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:23:26.3815084+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:23:26.3815103+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:23:26.3815117+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:23:26.3815134+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:23:26.3815150+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:23:26.3815167+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:23:26.3815183+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:23:26.3815200+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:23:45.1026657+00:00 ContainerStream: [2026-09-23 13:23:45,101] ERROR in app: Exception on /login [POST]
+2026-09-23T13:23:45.1027044+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:23:45.1027074+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:23:45.1027094+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:23:45.1027174+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:23:45.1027193+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:23:45.1027214+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:23:45.1027230+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:23:45.1027251+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:23:45.1027273+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:23:45.1027290+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:23:45.1027307+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:23:45.1027329+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:23:45.1027346+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:23:45.1027366+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:23:45.1027383+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:23:45.1027419+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:23:45.1027437+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:23:45.1027457+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:23:45.1027474+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:23:45.1027494+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:25:20.5431900+00:00 ContainerStream: [2026-09-23 13:25:20,538] ERROR in app: Exception on /login [POST]
+2026-09-23T13:25:20.5432267+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:25:20.5432294+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:25:20.5432310+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:25:20.5432329+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:25:20.5432344+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:25:20.5432362+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:25:20.5432441+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:25:20.5432461+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:25:20.5432480+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:25:20.5432495+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:25:20.5432510+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:25:20.5432529+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:25:20.5432544+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:25:20.5432562+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:25:20.5432578+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:25:20.5432595+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:25:20.5432611+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:25:20.5432628+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:25:20.5432659+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:25:20.5432679+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:26:41.4005864+00:00 ContainerStream: [2026-09-23 13:26:41,399] ERROR in app: Exception on /login [POST]
+2026-09-23T13:26:41.4006250+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:26:41.4006273+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:26:41.4006291+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:26:41.4006309+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:26:41.4006324+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:26:41.4006343+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:26:41.4006357+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:26:41.4006375+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:26:41.4006393+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:26:41.4006408+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:26:41.4006423+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:26:41.4006440+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:26:41.4006477+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:26:41.4006497+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:26:41.4006511+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:26:41.4006528+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:26:41.4006543+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:26:41.4006560+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:26:41.4006575+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:26:41.4006592+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:29:33.4727545+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:29:36.2934088+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:29:36.2935378+00:00 ContainerStatus: Container start method called.
+2026-09-23T13:29:36.2935804+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:29:36.2936299+00:00 ContainerStatus: Establishing network.
+2026-09-23T13:29:36.2936858+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T13:29:39.1574030+00:00 ContainerStatus: Container is starting.
+2026-09-23T13:29:39.1670380+00:00 ContainerStatus: State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:29:39.1671340+00:00 ContainerStatus: Establishing user namespace if not established already.
+2026-09-23T13:29:39.1671790+00:00 ContainerStatus: Establishing network if not established already.
+2026-09-23T13:29:39.1672304+00:00 ContainerStatus: Mounting volumes.
+2026-09-23T13:29:39.1673258+00:00 ContainerStatus: Nested mountpoint volatile/logs
+2026-09-23T13:29:39.1862945+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:29:39.1958455+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:29:39.2983985+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:29:39.4970956+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T13:29:39.4971666+00:00 ContainerStatus: Creating container.
+2026-09-23T13:29:39.4972081+00:00 ContainerStatus: Creating pipes for streaming container io.
+2026-09-23T13:29:39.4972484+00:00 ContainerStatus: Creating stdout named pipe at /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stdout_540397d9ef754bf3b98d02bbc8319ba2.
+2026-09-23T13:29:39.5087318+00:00 ContainerStatus: Successfully created stdout named pipe at: /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stdout_540397d9ef754bf3b98d02bbc8319ba2.
+2026-09-23T13:29:39.5088447+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stdout_540397d9ef754bf3b98d02bbc8319ba2 for reading in non-blocking mode.
+2026-09-23T13:29:39.5089705+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stdout_540397d9ef754bf3b98d02bbc8319ba2.
+2026-09-23T13:29:39.5090515+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stdout_540397d9ef754bf3b98d02bbc8319ba2.
+2026-09-23T13:29:39.5099244+00:00 ContainerStatus: Creating stderr named pipe at /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stderr_e316748b8e234968a31ebd9c40bc1fc7.
+2026-09-23T13:29:39.5100978+00:00 ContainerStatus: Successfully created stderr named pipe at: /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stderr_e316748b8e234968a31ebd9c40bc1fc7.
+2026-09-23T13:29:39.5102537+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stderr_e316748b8e234968a31ebd9c40bc1fc7 for reading in non-blocking mode.
+2026-09-23T13:29:39.5294639+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stderr_e316748b8e234968a31ebd9c40bc1fc7.
+2026-09-23T13:29:39.5879578+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/3751d802f389_breast-cancer-classfication-system/stderr_e316748b8e234968a31ebd9c40bc1fc7.
+2026-09-23T13:29:39.5883065+00:00 ContainerStatus: Overriding PORT environment variable with port exposed by container image.
+2026-09-23T13:29:40.0297432+00:00 ContainerStatus: Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T13:29:40.0306029+00:00 ContainerStatus: Setting value of PORT variable to 5000
+2026-09-23T13:29:40.0312201+00:00 ContainerStatus: Creating container with image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d
+2026-09-23T13:29:41.7130989+00:00 ContainerStatus: Starting container: 3751d802f389_breast-cancer-classfication-system.
+2026-09-23T13:29:41.7796676+00:00 ContainerStatus: Starting watchers and probes.
+2026-09-23T13:29:41.7800119+00:00 ContainerStatus: Starting metrics collection.
+2026-09-23T13:29:41.7806167+00:00 ContainerStatus: Container is running.
+2026-09-23T13:29:41.7807131+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:29:41.8731144+00:00 ContainerStatus: Container start method finished after 5578 ms.
+2026-09-23T13:29:42.0020907+00:00 ContainerStatus: State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:29:42.0021547+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T13:29:47.3733216+00:00 ContainerStatus: Site startup probe failed after 5.331286 seconds.
+2026-09-23T13:29:48.1775331+00:00 ContainerStream: [2026-09-23 13:29:48 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T13:29:49.7257182+00:00 ContainerStream: [2026-09-23 13:29:48 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T13:29:49.7257376+00:00 ContainerStream: [2026-09-23 13:29:48 +0000] [1] [INFO] Using worker: sync
+2026-09-23T13:29:49.7257433+00:00 ContainerStream: [2026-09-23 13:29:48 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T13:29:50.7000375+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:29:50, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:29:50.7097413+00:00 ContainerStatus: Failed to start site. Revert by stopping site.
+2026-09-23T13:29:50.7099233+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:29:50, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:29:50.7521574+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:29:50, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:29:50.7522588+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:29:50.7630457+00:00 ContainerStatus: Stop and delete container. Retry count = 0
+2026-09-23T13:29:50.7630970+00:00 ContainerStatus: Stopping container: 3751d802f389_breast-cancer-classfication-system.
+2026-09-23T13:29:51.1136307+00:00 ContainerStream: [2026-09-23 13:29:51 +0000] [1] [INFO] Handling signal: term
+2026-09-23T13:29:52.9453511+00:00 ContainerStream: [2026-09-23 13:29:52 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T13:29:53.2441538+00:00 ContainerStream: [2026-09-23 13:29:53 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T13:29:53.3387437+00:00 ContainerStatus: Deleting container: 3751d802f389_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T13:29:53.5784402+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T13:29:53.5787166+00:00 ContainerStatus: Container is terminated. Total time elapsed: 2826 ms.
+2026-09-23T13:29:53.5790123+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T13:29:53.5791166+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:29:50, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T13:29:53.5793387+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T13:32:40.4875980+00:00) ==========
+2026-09-23T13:32:40.4875980+00:00 ContainerStream: [2026-09-23 13:32:40,484] ERROR in app: Exception on /login [POST]
+2026-09-23T13:32:40.4876448+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:32:40.4876475+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:32:40.4876491+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:32:40.4876509+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:32:40.4876538+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:32:40.4876615+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:32:40.4876631+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:32:40.4876649+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:32:40.4876670+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:32:40.4876686+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:32:40.4876700+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:32:40.4876718+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:32:40.4876733+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:32:40.4876751+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:32:40.4876765+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:32:40.4876782+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:32:40.4876818+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:32:40.4876836+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:32:40.4876851+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:32:40.4876868+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:36:32.6692792+00:00 ContainerStream: [2026-09-23 13:36:32,667] ERROR in app: Exception on /login [POST]
+2026-09-23T13:36:32.6693151+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:36:32.6693174+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:36:32.6693191+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:36:32.6693209+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:36:32.6693225+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:36:32.6693242+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:36:32.6693257+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:36:32.6693275+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:36:32.6693294+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:36:32.6693309+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:36:32.6693324+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:36:32.6693343+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:36:32.6693383+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:36:32.6693401+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:36:32.6693416+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:36:32.6693434+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:36:32.6693449+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:36:32.6693467+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:36:32.6693484+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:36:32.6693501+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:36:50.2553593+00:00 ContainerStream: [2026-09-23 13:36:50,254] ERROR in app: Exception on /login [POST]
+2026-09-23T13:36:50.2553918+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:36:50.2553943+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:36:50.2562122+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:36:50.2562203+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:36:50.2562221+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:36:50.2562241+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:36:50.2562257+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:36:50.2562276+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:36:50.2562295+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:36:50.2562310+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:36:50.2562326+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:36:50.2562344+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:36:50.2562359+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:36:50.2562377+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:36:50.2562392+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:36:50.2562428+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:36:50.2562442+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:36:50.2562462+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:36:50.2562476+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:36:50.2562493+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:38:34.3338372+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:38:37.2182749+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:38:37.2189431+00:00 ContainerStatus: Container start method called.
+2026-09-23T13:38:37.2197474+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:38:37.2207157+00:00 ContainerStatus: Establishing network.
+2026-09-23T13:38:37.2380056+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T13:38:37.6229056+00:00 ContainerStatus: Container pull image interrupted. Revert by terminate.
+2026-09-23T13:38:37.6234453+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:38:37.6297575+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T13:38:37.6406961+00:00 ContainerStatus: Container is terminated. Total time elapsed: 16 ms.
+2026-09-23T13:38:37.6410618+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T13:38:37.6414657+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T13:38:37.6509595+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 13:38:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T13:38:37.6931274+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 13:38:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T13:38:37.6935458+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 13:38:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T13:38:37.6935667+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T13:47:20.0121094+00:00) ==========
+2026-09-23T13:47:20.0121094+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 13:38:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:46:30 (UTC), DetailsLevel: INFO
+2026-09-23T13:47:20.0160354+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 13:38:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:46:30 (UTC), DetailsLevel: INFO
+2026-09-23T13:47:20.0237913+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:47:20.0261136+00:00 ContainerStatus: Stop and delete container. Retry count = 0
+2026-09-23T13:47:20.0261700+00:00 ContainerStatus: Stopping container: 9192f52d9bb7_breast-cancer-classfication-system.
+2026-09-23T13:47:20.8691207+00:00 ContainerStream: [Previous Container] [2026-09-23 13:47:20 +0000] [1] [INFO] Handling signal: term
+2026-09-23T13:47:20.8781309+00:00 ContainerStream: [Previous Container] [2026-09-23 13:47:20 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T13:47:21.0773447+00:00 ContainerStream: [Previous Container] [2026-09-23 13:47:21 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T13:47:21.1886629+00:00 ContainerStatus: Deleting container: 9192f52d9bb7_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T13:47:21.3998458+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T13:47:21.4002544+00:00 ContainerStatus: Container is terminated. Total time elapsed: 1376 ms.
+2026-09-23T13:47:21.4009219+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T13:47:35.5844984+00:00 ContainerStream: [2026-09-23 13:47:35,576] ERROR in app: Exception on /login [POST]
+2026-09-23T13:47:35.5845330+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:47:35.5845354+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:47:35.5845371+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:47:35.5845390+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:47:35.5845415+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:47:35.5845433+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:47:35.5845447+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:47:35.5845465+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:47:35.5845486+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:47:35.5845501+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:47:35.5845542+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:47:35.5845560+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:47:35.5845575+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:47:35.5845592+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:47:35.5845607+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:47:35.5845624+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:47:35.5845642+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:47:35.5845659+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:47:35.5845673+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:47:35.5845690+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:47:39.8168903+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:47:41.3566628+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:47:41.3567285+00:00 ContainerStatus: Container start method called.
+2026-09-23T13:47:41.3567617+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:47:41.3568111+00:00 ContainerStatus: Establishing network.
+2026-09-23T13:47:41.3568668+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T13:47:42.5415982+00:00 ContainerStatus: Container is starting.
+2026-09-23T13:47:42.5416739+00:00 ContainerStatus: State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:47:42.5417132+00:00 ContainerStatus: Establishing user namespace if not established already.
+2026-09-23T13:47:42.5417533+00:00 ContainerStatus: Establishing network if not established already.
+2026-09-23T13:47:42.5417971+00:00 ContainerStatus: Mounting volumes.
+2026-09-23T13:47:42.5418894+00:00 ContainerStatus: Nested mountpoint volatile/logs
+2026-09-23T13:47:42.5805050+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:47:42.6611007+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:47:42.6616042+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:47:42.7829053+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T13:47:42.7829648+00:00 ContainerStatus: Creating container.
+2026-09-23T13:47:42.7830012+00:00 ContainerStatus: Creating pipes for streaming container io.
+2026-09-23T13:47:42.7830452+00:00 ContainerStatus: Creating stdout named pipe at /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stdout_448cc78227a24c56ba8909efd786f2a7.
+2026-09-23T13:47:42.7831584+00:00 ContainerStatus: Successfully created stdout named pipe at: /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stdout_448cc78227a24c56ba8909efd786f2a7.
+2026-09-23T13:47:42.7831918+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stdout_448cc78227a24c56ba8909efd786f2a7 for reading in non-blocking mode.
+2026-09-23T13:47:42.7832406+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stdout_448cc78227a24c56ba8909efd786f2a7.
+2026-09-23T13:47:42.7832771+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stdout_448cc78227a24c56ba8909efd786f2a7.
+2026-09-23T13:47:42.7833386+00:00 ContainerStatus: Creating stderr named pipe at /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stderr_8ffd05d4d9f941828ed94439afd13294.
+2026-09-23T13:47:42.7834007+00:00 ContainerStatus: Successfully created stderr named pipe at: /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stderr_8ffd05d4d9f941828ed94439afd13294.
+2026-09-23T13:47:42.7834355+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stderr_8ffd05d4d9f941828ed94439afd13294 for reading in non-blocking mode.
+2026-09-23T13:47:42.7834777+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stderr_8ffd05d4d9f941828ed94439afd13294.
+2026-09-23T13:47:42.7835159+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/1edd1d7c1ad0_breast-cancer-classfication-system/stderr_8ffd05d4d9f941828ed94439afd13294.
+2026-09-23T13:47:42.7835684+00:00 ContainerStatus: Overriding PORT environment variable with port exposed by container image.
+2026-09-23T13:47:42.9826268+00:00 ContainerStatus: Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T13:47:42.9827203+00:00 ContainerStatus: Setting value of PORT variable to 5000
+2026-09-23T13:47:42.9828393+00:00 ContainerStatus: Creating container with image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d
+2026-09-23T13:47:43.5824023+00:00 ContainerStatus: Starting container: 1edd1d7c1ad0_breast-cancer-classfication-system.
+2026-09-23T13:47:43.6473857+00:00 ContainerStatus: Starting watchers and probes.
+2026-09-23T13:47:43.6560977+00:00 ContainerStatus: Starting metrics collection.
+2026-09-23T13:47:43.6570263+00:00 ContainerStatus: Container is running.
+2026-09-23T13:47:43.6571945+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:47:43.7886508+00:00 ContainerStatus: Container start method finished after 2411 ms.
+2026-09-23T13:47:43.7889656+00:00 ContainerStatus: State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:47:43.7889821+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T13:47:45.9536593+00:00 ContainerStream: [2026-09-23 13:47:45 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T13:47:45.9613288+00:00 ContainerStream: [2026-09-23 13:47:45 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T13:47:45.9614735+00:00 ContainerStream: [2026-09-23 13:47:45 +0000] [1] [INFO] Using worker: sync
+2026-09-23T13:47:45.9724924+00:00 ContainerStream: [2026-09-23 13:47:45 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T13:47:47.3904884+00:00 ContainerStatus: Site startup probe failed after 3.5722295 seconds.
+2026-09-23T13:47:47.9040451+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:47:47, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:47:47.9228109+00:00 ContainerStatus: Failed to start site. Revert by stopping site.
+2026-09-23T13:47:47.9230446+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:47:47, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:47:47.9339198+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:47:47, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:47:47.9350101+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:47:47.9635577+00:00 ContainerStatus: Stop and delete container. Retry count = 0
+2026-09-23T13:47:47.9643365+00:00 ContainerStatus: Stopping container: 1edd1d7c1ad0_breast-cancer-classfication-system.
+2026-09-23T13:47:48.0751998+00:00 ContainerStream: [2026-09-23 13:47:48 +0000] [1] [INFO] Handling signal: term
+2026-09-23T13:47:48.0752322+00:00 ContainerStream: [2026-09-23 13:47:48 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T13:47:48.3459741+00:00 ContainerStream: [2026-09-23 13:47:48 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T13:47:48.4377780+00:00 ContainerStatus: Deleting container: 1edd1d7c1ad0_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T13:47:48.6695036+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T13:47:48.6702243+00:00 ContainerStatus: Container is terminated. Total time elapsed: 734 ms.
+2026-09-23T13:47:48.6704972+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T13:47:48.6709925+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:47:47, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T13:47:48.6783355+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T13:58:57.9953929+00:00) ==========
+2026-09-23T13:58:57.9953929+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:47:47, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/23/2026 13:58:08 (UTC), DetailsLevel: INFO
+2026-09-23T13:58:57.9963817+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:47:47, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/23/2026 13:58:08 (UTC), DetailsLevel: INFO
+2026-09-23T13:58:57.9970464+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:58:58.0050681+00:00 ContainerStatus: Stop and delete container. Retry count = 0
+2026-09-23T13:58:58.0056508+00:00 ContainerStatus: Stopping container: 829a4710c83a_breast-cancer-classfication-system.
+2026-09-23T13:58:58.0852925+00:00 ContainerStream: [Previous Container] [2026-09-23 13:58:58 +0000] [1] [INFO] Handling signal: term
+2026-09-23T13:58:58.0942056+00:00 ContainerStream: [Previous Container] [2026-09-23 13:58:58 +0000] [8] [INFO] Worker exiting (pid: 8)
+2026-09-23T13:58:58.2952315+00:00 ContainerStream: [Previous Container] [2026-09-23 13:58:58 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T13:58:58.3709443+00:00 ContainerStatus: Deleting container: 829a4710c83a_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T13:58:58.6726432+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T13:58:58.6731225+00:00 ContainerStatus: Container is terminated. Total time elapsed: 675 ms.
+2026-09-23T13:58:58.6732533+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T13:59:00.9247524+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:59:02.7159339+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:59:02.7162732+00:00 ContainerStatus: Container start method called.
+2026-09-23T13:59:02.7166496+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:59:02.7167555+00:00 ContainerStatus: Establishing network.
+2026-09-23T13:59:02.7172647+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T13:59:03.8630091+00:00 ContainerStatus: Container is starting.
+2026-09-23T13:59:03.8702004+00:00 ContainerStatus: State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:59:03.8703189+00:00 ContainerStatus: Establishing user namespace if not established already.
+2026-09-23T13:59:03.8705037+00:00 ContainerStatus: Establishing network if not established already.
+2026-09-23T13:59:03.8709113+00:00 ContainerStatus: Mounting volumes.
+2026-09-23T13:59:03.8712746+00:00 ContainerStatus: Nested mountpoint volatile/logs
+2026-09-23T13:59:03.9015398+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:59:03.9512867+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:59:03.9532885+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:59:04.1518122+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T13:59:04.1519003+00:00 ContainerStatus: Creating container.
+2026-09-23T13:59:04.1519683+00:00 ContainerStatus: Creating pipes for streaming container io.
+2026-09-23T13:59:04.1520372+00:00 ContainerStatus: Creating stdout named pipe at /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stdout_b6f1702ca613447084a352f55a35b8ea.
+2026-09-23T13:59:04.1539390+00:00 ContainerStatus: Successfully created stdout named pipe at: /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stdout_b6f1702ca613447084a352f55a35b8ea.
+2026-09-23T13:59:04.1540197+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stdout_b6f1702ca613447084a352f55a35b8ea for reading in non-blocking mode.
+2026-09-23T13:59:04.1541139+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stdout_b6f1702ca613447084a352f55a35b8ea.
+2026-09-23T13:59:04.1541850+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stdout_b6f1702ca613447084a352f55a35b8ea.
+2026-09-23T13:59:04.1922282+00:00 ContainerStatus: Creating stderr named pipe at /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stderr_1995ad98bcd24f368675751250a8f289.
+2026-09-23T13:59:04.1927189+00:00 ContainerStatus: Successfully created stderr named pipe at: /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stderr_1995ad98bcd24f368675751250a8f289.
+2026-09-23T13:59:04.1927731+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stderr_1995ad98bcd24f368675751250a8f289 for reading in non-blocking mode.
+2026-09-23T13:59:04.1928242+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stderr_1995ad98bcd24f368675751250a8f289.
+2026-09-23T13:59:04.1928588+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/ef1ff5e6eb5c_breast-cancer-classfication-system/stderr_1995ad98bcd24f368675751250a8f289.
+2026-09-23T13:59:04.1929296+00:00 ContainerStatus: Overriding PORT environment variable with port exposed by container image.
+2026-09-23T13:59:04.3343038+00:00 ContainerStatus: Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T13:59:04.3344245+00:00 ContainerStatus: Setting value of PORT variable to 5000
+2026-09-23T13:59:04.3345579+00:00 ContainerStatus: Creating container with image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d
+2026-09-23T13:59:04.8498187+00:00 ContainerStatus: Starting container: ef1ff5e6eb5c_breast-cancer-classfication-system.
+2026-09-23T13:59:04.9276257+00:00 ContainerStatus: Starting watchers and probes.
+2026-09-23T13:59:04.9281889+00:00 ContainerStatus: Starting metrics collection.
+2026-09-23T13:59:04.9283763+00:00 ContainerStatus: Container is running.
+2026-09-23T13:59:04.9470305+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:59:05.0190604+00:00 ContainerStatus: Container start method finished after 2302 ms.
+2026-09-23T13:59:05.0193233+00:00 ContainerStatus: State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:59:05.0193411+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T13:59:07.2397446+00:00 ContainerStream: [2026-09-23 13:59:07 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T13:59:07.2410728+00:00 ContainerStream: [2026-09-23 13:59:07 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T13:59:07.2417052+00:00 ContainerStream: [2026-09-23 13:59:07 +0000] [1] [INFO] Using worker: sync
+2026-09-23T13:59:07.2691205+00:00 ContainerStream: [2026-09-23 13:59:07 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T13:59:07.3918754+00:00 ContainerStatus: Site startup probe failed after 2.2643326 seconds.
+2026-09-23T13:59:07.7448903+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:59:07, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:59:07.7835771+00:00 ContainerStatus: Failed to start site. Revert by stopping site.
+2026-09-23T13:59:07.7840175+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:59:07, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:59:07.7845140+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:59:07, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T13:59:07.7846400+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:59:07.8050842+00:00 ContainerStatus: Stop and delete container. Retry count = 0
+2026-09-23T13:59:07.8051642+00:00 ContainerStatus: Stopping container: ef1ff5e6eb5c_breast-cancer-classfication-system.
+2026-09-23T13:59:07.9759192+00:00 ContainerStream: [2026-09-23 13:59:07 +0000] [1] [INFO] Handling signal: term
+2026-09-23T13:59:09.1611964+00:00 ContainerStream: [2026-09-23 13:59:09 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T13:59:09.3924179+00:00 ContainerStream: [2026-09-23 13:59:09 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T13:59:09.4772759+00:00 ContainerStatus: Deleting container: ef1ff5e6eb5c_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T13:59:09.7577560+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T13:59:09.7580493+00:00 ContainerStatus: Container is terminated. Total time elapsed: 1973 ms.
+2026-09-23T13:59:09.7581377+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T13:59:09.7584156+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:59:07, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T13:59:09.7586382+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T14:01:46.8538881+00:00) ==========
+2026-09-23T14:01:46.8538881+00:00 ContainerStatus: Site is running with deployment version: c9a477e26792d5b34210bedab9ffdf25c88c577d1790168316851
+2026-09-23T14:01:46.8595237+00:00 ContainerStatus: Site started.
+2026-09-23T14:01:46.8605384+00:00 ContainerStatus: State: Started, Action: None, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 13:59:07, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/23/2026 14:01:46 (UTC), DetailsLevel: INFO
+2026-09-23T14:01:52.8474519+00:00 ContainerStream: [2026-09-23 14:01:52,837] ERROR in app: Exception on /login [POST]
+2026-09-23T14:01:52.8475119+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:01:52.8475188+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:01:52.8475237+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:01:52.8475421+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:01:52.8475494+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:01:52.8475548+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:01:52.8475591+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:01:52.8475643+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:01:52.8475708+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:01:52.8475754+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:01:52.8475798+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:01:52.8475852+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:01:52.8475896+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:01:52.8475981+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:01:52.8476027+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:01:52.8476080+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:01:52.8476133+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:01:52.8476186+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:01:52.8476229+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:01:52.8476280+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T14:03:57.9737052+00:00 ContainerStream: [2026-09-23 14:03:57,967] ERROR in app: Exception on /login [POST]
+2026-09-23T14:03:57.9737371+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:03:57.9737395+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:03:57.9737412+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:03:57.9737431+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:03:57.9737447+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:03:57.9737465+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:03:57.9737479+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:03:57.9737498+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:03:57.9737516+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:03:57.9737531+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:03:57.9737547+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:03:57.9737566+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:03:57.9737643+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:03:57.9737663+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:03:57.9737678+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:03:57.9737696+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:03:57.9737711+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:03:57.9737729+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:03:57.9737744+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:03:57.9737761+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T14:04:06.5341679+00:00 ContainerStream: [2026-09-23 14:04:06,526] ERROR in app: Exception on /login [POST]
+2026-09-23T14:04:06.5342068+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:04:06.5342104+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:04:06.5342123+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:04:06.5342308+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:04:06.5342326+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:04:06.5342345+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:04:06.5342360+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:04:06.5342379+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:04:06.5342397+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:04:06.5342412+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:04:06.5342427+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:04:06.5342446+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:04:06.5342462+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:04:06.5342480+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:04:06.5342495+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:04:06.5342564+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:04:06.5342581+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:04:06.5342598+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:04:06.5342614+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:04:06.5342630+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T14:09:17.0452216+00:00 ContainerStream: [2026-09-23 14:09:17,044] ERROR in app: Exception on /login [POST]
+2026-09-23T14:09:17.0452479+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:09:17.0452505+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:09:17.0452520+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:09:17.0452539+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:09:17.0452554+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:09:17.0452572+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:09:17.0452586+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:09:17.0452605+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:09:17.0452624+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:09:17.0452640+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:09:17.0452655+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:09:17.0452673+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:09:17.0452708+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:09:17.0452727+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:09:17.0452741+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:09:17.0452759+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:09:17.0452774+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:09:17.0452792+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:09:17.0452807+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:09:17.0452823+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T14:09:30.4447639+00:00 ContainerStream: [2026-09-23 14:09:30,442] ERROR in app: Exception on /login [POST]
+2026-09-23T14:09:30.4448035+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:09:30.4448072+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:09:30.4448091+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:09:30.4448177+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:09:30.4448195+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:09:30.4448217+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:09:30.4448234+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:09:30.4448254+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:09:30.4448276+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:09:30.4448293+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:09:30.4448310+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:09:30.4448332+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:09:30.4448350+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:09:30.4448370+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:09:30.4448387+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:09:30.4448422+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:09:30.4448440+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:09:30.4448464+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:09:30.4448481+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:09:30.4448501+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T14:18:58.7038205+00:00 ContainerStream: [2026-09-23 14:18:58,696] ERROR in app: Exception on /login [POST]
+2026-09-23T14:18:58.7038555+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:18:58.7038578+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:18:58.7038596+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:18:58.7038616+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:18:58.7038631+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:18:58.7038649+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:18:58.7038663+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:18:58.7038682+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:18:58.7038702+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:18:58.7038717+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:18:58.7038736+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:18:58.7038754+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:18:58.7038790+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:18:58.7038809+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:18:58.7038823+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:18:58.7038842+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:18:58.7038857+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:18:58.7038874+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:18:58.7038890+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:18:58.7038906+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T14:26:46.1093049+00:00 ContainerStream: [2026-09-23 14:26:46,101] ERROR in app: Exception on /login [POST]
+2026-09-23T14:26:46.1093410+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:26:46.1093434+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:26:46.1093452+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:26:46.1093471+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:26:46.1093485+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:26:46.1093506+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:26:46.1093520+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:26:46.1093538+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:26:46.1093558+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:26:46.1093573+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:26:46.1093588+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:26:46.1093607+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:26:46.1093645+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:26:46.1093665+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:26:46.1093679+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:26:46.1093697+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:26:46.1093712+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:26:46.1093729+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:26:46.1093745+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:26:46.1093762+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T14:29:28.8550222+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T14:29:29.2985500+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 14:29:29, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T14:29:29.3195833+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 14:29:29, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T14:29:29.3284747+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 14:29:29, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T14:29:29.3359647+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T14:31:29.6269998+00:00) ==========
+2026-09-23T14:31:29.6269998+00:00 ContainerStatus: Site is running with deployment version: c9a477e26792d5b34210bedab9ffdf25c88c577d1790168316851
+2026-09-23T14:31:29.6276543+00:00 ContainerStatus: Site started.
+2026-09-23T14:31:29.6286498+00:00 ContainerStatus: State: Started, Action: None, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 14:29:29, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 14:31:29 (UTC), DetailsLevel: INFO
+2026-09-23T14:31:57.0514827+00:00 ContainerStream: [2026-09-23 14:31:57,042] ERROR in app: Exception on /login [POST]
+2026-09-23T14:31:57.0516296+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:31:57.0516338+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:31:57.0516355+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:31:57.0516373+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:31:57.0516398+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:31:57.0516421+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:31:57.0516436+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:31:57.0516454+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:31:57.0516475+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:31:57.0516491+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:31:57.0516532+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:31:57.0516552+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:31:57.0516567+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:31:57.0516584+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:31:57.0516599+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:31:57.0516617+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:31:57.0516634+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:31:57.0516653+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:31:57.0516667+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:31:57.0516685+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T14:34:52.8841218+00:00 ContainerStream: [2026-09-23 14:34:52,875] ERROR in app: Exception on /login [POST]
+2026-09-23T14:34:52.8841659+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:34:52.8841686+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:34:52.8841702+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:34:52.8841721+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:34:52.8841736+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:34:52.8841754+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:34:52.8841768+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:34:52.8841786+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:34:52.8841804+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:34:52.8841819+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:34:52.8841834+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:34:52.8841852+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:34:52.8841890+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:34:52.8841908+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:34:52.8841923+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:34:52.8841940+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:34:52.8841955+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:34:52.8841973+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:34:52.8841987+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:34:52.8842006+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T14:35:26.3641395+00:00 ContainerStream: [2026-09-23 14:35:26,362] ERROR in app: Exception on /login [POST]
+2026-09-23T14:35:26.3641728+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:35:26.3641759+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:35:26.3641778+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:35:26.3641864+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:35:26.3641882+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:35:26.3641903+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:35:26.3641920+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:35:26.3641940+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:35:26.3641963+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:35:26.3641980+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:35:26.3641997+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:35:26.3642019+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:35:26.3642037+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:35:26.3642057+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:35:26.3642073+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:35:26.3642117+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:35:26.3642136+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:35:26.3642156+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:35:26.3642172+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:35:26.3642193+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T14:35:33.5939065+00:00 ContainerStream: [2026-09-23 14:35:33,587] ERROR in app: Exception on /login [POST]
+2026-09-23T14:35:33.5939376+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T14:35:33.5939406+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T14:35:33.5939422+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T14:35:33.5939444+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T14:35:33.5939461+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T14:35:33.5939553+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T14:35:33.5939636+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T14:35:33.5939654+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T14:35:33.5939673+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T14:35:33.5939689+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T14:35:33.5939704+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T14:35:33.5939722+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T14:35:33.5939737+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T14:35:33.5939754+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T14:35:33.5939770+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T14:35:33.5939788+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T14:35:33.5939803+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T14:35:33.5939821+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T14:35:33.5939855+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T14:35:33.5939874+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T15:13:01.7837818+00:00 ContainerStream: [2026-09-23 15:13:01,774] ERROR in app: Exception on /login [POST]
+2026-09-23T15:13:01.7842351+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T15:13:01.7842387+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T15:13:01.7842404+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T15:13:01.7842422+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T15:13:01.7842439+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T15:13:01.7842540+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T15:13:01.7842558+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T15:13:01.7842576+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T15:13:01.7842595+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T15:13:01.7842610+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T15:13:01.7842625+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T15:13:01.7842644+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T15:13:01.7842692+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T15:13:01.7842711+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T15:13:01.7842725+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T15:13:01.7842742+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T15:13:01.7842757+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T15:13:01.7842775+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T15:13:01.7842789+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T15:13:01.7842808+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T15:14:53.0216639+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T15:14:54.0282089+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 15:14:54, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T15:14:54.0673940+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 15:14:54, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T15:14:54.1088345+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 15:14:54, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T15:14:54.1276577+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T15:17:29.2147527+00:00) ==========
+2026-09-23T15:17:29.2147527+00:00 ContainerStatus: Site started.
+2026-09-23T15:17:29.2157918+00:00 ContainerStatus: State: Started, Action: None, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 15:14:54, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 15:17:29 (UTC), DetailsLevel: INFO
+2026-09-23T15:17:34.5464167+00:00 ContainerStream: [2026-09-23 15:17:34,535] ERROR in app: Exception on /login [POST]
+2026-09-23T15:17:34.5464490+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T15:17:34.5464517+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T15:17:34.5464533+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T15:17:34.5464603+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T15:17:34.5464631+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T15:17:34.5464649+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T15:17:34.5464664+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T15:17:34.5464682+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T15:17:34.5464703+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T15:17:34.5464719+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T15:17:34.5464733+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T15:17:34.5464751+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T15:17:34.5464766+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T15:17:34.5464783+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T15:17:34.5464815+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T15:17:34.5464833+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T15:17:34.5464850+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T15:17:34.5464869+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T15:17:34.5464883+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T15:17:34.5464901+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T15:34:34.2232530+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T15:34:35.9417394+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T15:34:35.9418078+00:00 ContainerStatus: Container start method called.
+2026-09-23T15:34:35.9418403+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T15:34:35.9418760+00:00 ContainerStatus: Establishing network.
+2026-09-23T15:34:35.9419231+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T15:34:37.5275041+00:00 ContainerStatus: Container pull image interrupted. Revert by terminate.
+2026-09-23T15:34:37.5281703+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T15:34:37.5283901+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T15:34:37.5287837+00:00 ContainerStatus: Container is terminated. Total time elapsed: 0 ms.
+2026-09-23T15:34:37.5370047+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T15:34:37.5478914+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T15:34:37.5488549+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 15:34:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T15:34:37.6184847+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 15:34:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T15:34:37.6192070+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 15:34:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T15:34:37.6192394+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T15:38:37.3769904+00:00) ==========
+2026-09-23T15:38:37.3769904+00:00 ContainerStatus: Site is running with deployment version: c9a477e26792d5b34210bedab9ffdf25c88c577d1790168316851
+2026-09-23T15:38:37.3782232+00:00 ContainerStatus: Site started.
+2026-09-23T15:38:37.3791473+00:00 ContainerStatus: State: Started, Action: None, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 15:34:37, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 15:38:37 (UTC), DetailsLevel: INFO
+2026-09-23T15:39:07.1145563+00:00 ContainerStream: [2026-09-23 15:39:07,104] ERROR in app: Exception on /login [POST]
+2026-09-23T15:39:07.1145964+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T15:39:07.1145987+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T15:39:07.1146003+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T15:39:07.1146021+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T15:39:07.1146048+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T15:39:07.1146066+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T15:39:07.1146081+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T15:39:07.1146100+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T15:39:07.1146120+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T15:39:07.1146135+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T15:39:07.1146170+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T15:39:07.1146189+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T15:39:07.1146205+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T15:39:07.1146222+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T15:39:07.1146237+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T15:39:07.1146255+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T15:39:07.1146272+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T15:39:07.1146289+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T15:39:07.1146303+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T15:39:07.1146322+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T15:39:49.9878782+00:00 ContainerStream: [2026-09-23 15:39:49,986] ERROR in app: Exception on /login [POST]
+2026-09-23T15:39:49.9879110+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T15:39:49.9879135+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T15:39:49.9879151+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T15:39:49.9879170+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T15:39:49.9879185+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T15:39:49.9879203+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T15:39:49.9879218+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T15:39:49.9879236+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T15:39:49.9879256+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T15:39:49.9879271+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T15:39:49.9879286+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T15:39:49.9879305+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T15:39:49.9879339+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T15:39:49.9879358+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T15:39:49.9879374+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T15:39:49.9879391+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T15:39:49.9879406+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T15:39:49.9879424+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T15:39:49.9879439+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T15:39:49.9879458+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T15:44:20.0252808+00:00 ContainerStream: [2026-09-23 15:44:20,020] ERROR in app: Exception on /login [POST]
+2026-09-23T15:44:20.0253422+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T15:44:20.0253490+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T15:44:20.0253540+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T15:44:20.0253594+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T15:44:20.0253640+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T15:44:20.0253695+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T15:44:20.0253739+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T15:44:20.0253793+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T15:44:20.0253850+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T15:44:20.0253896+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T15:44:20.0253941+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T15:44:20.0253995+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T15:44:20.0254078+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T15:44:20.0254135+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T15:44:20.0254179+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T15:44:20.0254231+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T15:44:20.0254277+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T15:44:20.0254331+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T15:44:20.0254374+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T15:44:20.0254428+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T15:45:42.9563563+00:00 ContainerStream: [2026-09-23 15:45:42,947] ERROR in app: Exception on /login [POST]
+2026-09-23T15:45:42.9563818+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T15:45:42.9563841+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T15:45:42.9563859+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T15:45:42.9563878+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T15:45:42.9563893+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T15:45:42.9563911+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T15:45:42.9563925+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T15:45:42.9563943+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T15:45:42.9563962+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T15:45:42.9563978+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T15:45:42.9563994+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T15:45:42.9564012+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T15:45:42.9564054+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T15:45:42.9564073+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T15:45:42.9564087+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T15:45:42.9564105+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T15:45:42.9564120+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T15:45:42.9564138+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T15:45:42.9564153+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T15:45:42.9564171+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T16:21:43.3028897+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T16:21:45.3914190+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T16:21:45.3917641+00:00 ContainerStatus: Container start method called.
+2026-09-23T16:21:45.3918287+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T16:21:45.3918826+00:00 ContainerStatus: Establishing network.
+2026-09-23T16:21:45.3925625+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T16:21:47.6676893+00:00 ContainerStatus: Container pull image interrupted. Revert by terminate.
+2026-09-23T16:21:47.6737253+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T16:21:47.6759484+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T16:21:47.6843446+00:00 ContainerStatus: Container is terminated. Total time elapsed: 9 ms.
+2026-09-23T16:21:47.6844929+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T16:21:47.6857034+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T16:21:47.6938783+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 16:21:47, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T16:21:47.7760763+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 16:21:47, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T16:21:47.7842629+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 16:21:47, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T16:21:47.7842877+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+========== New Cold Start Attempt (2026-09-23T16:27:43.6581099+00:00) ==========
+2026-09-23T16:27:43.6581099+00:00 ContainerStream: [2026-09-23 16:27:43,649] ERROR in app: Exception on /login [POST]
+2026-09-23T16:27:43.6581574+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T16:27:43.6581672+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T16:27:43.6581693+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T16:27:43.6581712+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T16:27:43.6581743+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T16:27:43.6581761+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T16:27:43.6581776+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T16:27:43.6581794+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T16:27:43.6581816+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T16:27:43.6581832+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T16:27:43.6581846+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T16:27:43.6581865+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T16:27:43.6581897+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T16:27:43.6581915+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T16:27:43.6581930+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T16:27:43.6581948+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T16:27:43.6581966+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T16:27:43.6581984+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T16:27:43.6581999+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T16:27:43.6582017+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T16:39:47.5218185+00:00 ContainerStream: [2026-09-23 16:39:47,518] ERROR in app: Exception on /login [POST]
+2026-09-23T16:39:47.5222885+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T16:39:47.5223003+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T16:39:47.5223021+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T16:39:47.5223039+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T16:39:47.5223054+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T16:39:47.5223073+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T16:39:47.5223089+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T16:39:47.5223107+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T16:39:47.5223125+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T16:39:47.5223140+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T16:39:47.5223156+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T16:39:47.5223175+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T16:39:47.5223242+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T16:39:47.5223261+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T16:39:47.5223276+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T16:39:47.5223293+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T16:39:47.5223308+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T16:39:47.5223326+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T16:39:47.5223342+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T16:39:47.5223360+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T16:41:39.9315917+00:00 ContainerStream: [2026-09-23 16:41:39,925] ERROR in app: Exception on /login [POST]
+2026-09-23T16:41:39.9316267+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T16:41:39.9316290+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T16:41:39.9316309+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T16:41:39.9316327+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T16:41:39.9316342+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T16:41:39.9316361+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T16:41:39.9316375+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T16:41:39.9316394+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T16:41:39.9316414+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T16:41:39.9316429+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T16:41:39.9316445+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T16:41:39.9316463+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T16:41:39.9316498+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T16:41:39.9316517+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T16:41:39.9316532+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T16:41:39.9316550+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T16:41:39.9316565+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T16:41:39.9316582+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T16:41:39.9316598+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T16:41:39.9316616+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)")
+2026-09-23T16:43:55.4725795+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T16:43:57.4801223+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T16:43:57.4802455+00:00 ContainerStatus: Container start method called.
+2026-09-23T16:43:57.4900048+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T16:43:57.4902904+00:00 ContainerStatus: Establishing network.
+2026-09-23T16:43:57.5082496+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T16:44:00.2709504+00:00 ContainerStatus: Container is starting.
+2026-09-23T16:44:00.2710505+00:00 ContainerStatus: State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T16:44:00.2711086+00:00 ContainerStatus: Establishing user namespace if not established already.
+2026-09-23T16:44:00.2711523+00:00 ContainerStatus: Establishing network if not established already.
+2026-09-23T16:44:00.2711988+00:00 ContainerStatus: Mounting volumes.
+2026-09-23T16:44:00.2712820+00:00 ContainerStatus: Nested mountpoint volatile/logs
+2026-09-23T16:44:00.2734250+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T16:44:00.2928528+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T16:44:00.3214525+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T16:44:00.6328235+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T16:44:00.6329511+00:00 ContainerStatus: Creating container.
+2026-09-23T16:44:00.6330005+00:00 ContainerStatus: Creating pipes for streaming container io.
+2026-09-23T16:44:00.6333332+00:00 ContainerStatus: Creating stdout named pipe at /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stdout_cecd634217414f1d9ea9368b510e66e9.
+2026-09-23T16:44:00.6433052+00:00 ContainerStatus: Successfully created stdout named pipe at: /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stdout_cecd634217414f1d9ea9368b510e66e9.
+2026-09-23T16:44:00.6442924+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stdout_cecd634217414f1d9ea9368b510e66e9 for reading in non-blocking mode.
+2026-09-23T16:44:00.6449043+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stdout_cecd634217414f1d9ea9368b510e66e9.
+2026-09-23T16:44:00.6454412+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stdout_cecd634217414f1d9ea9368b510e66e9.
+2026-09-23T16:44:00.6532543+00:00 ContainerStatus: Creating stderr named pipe at /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stderr_9cdf7e2a59c24173a8f2c25ddcc1a2e4.
+2026-09-23T16:44:00.6533937+00:00 ContainerStatus: Successfully created stderr named pipe at: /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stderr_9cdf7e2a59c24173a8f2c25ddcc1a2e4.
+2026-09-23T16:44:00.6536198+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stderr_9cdf7e2a59c24173a8f2c25ddcc1a2e4 for reading in non-blocking mode.
+2026-09-23T16:44:00.6540900+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stderr_9cdf7e2a59c24173a8f2c25ddcc1a2e4.
+2026-09-23T16:44:00.6544322+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/16fb26d9a60a_breast-cancer-classfication-system/stderr_9cdf7e2a59c24173a8f2c25ddcc1a2e4.
+2026-09-23T16:44:00.6549215+00:00 ContainerStatus: Overriding PORT environment variable with port exposed by container image.
+2026-09-23T16:44:00.7966531+00:00 ContainerStatus: Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T16:44:00.7970695+00:00 ContainerStatus: Setting value of PORT variable to 5000
+2026-09-23T16:44:00.8041778+00:00 ContainerStatus: Creating container with image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d
+2026-09-23T16:44:01.5304514+00:00 ContainerStatus: Starting container: 16fb26d9a60a_breast-cancer-classfication-system.
+2026-09-23T16:44:01.7532016+00:00 ContainerStatus: Starting watchers and probes.
+2026-09-23T16:44:01.7610519+00:00 ContainerStatus: Starting metrics collection.
+2026-09-23T16:44:01.7614648+00:00 ContainerStatus: Container is running.
+2026-09-23T16:44:01.7624601+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T16:44:02.0135377+00:00 ContainerStatus: Container start method finished after 4533 ms.
+2026-09-23T16:44:02.0149037+00:00 ContainerStatus: State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T16:44:02.0149288+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T16:44:05.0477384+00:00 ContainerStatus: Site startup probe failed after 2.9446648 seconds.
+2026-09-23T16:44:05.7522772+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 16:44:05, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T16:44:05.7820191+00:00 ContainerStatus: Failed to start site. Revert by stopping site.
+2026-09-23T16:44:05.7915211+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 16:44:05, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T16:44:05.7929142+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 16:44:05, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: ERR
+2026-09-23T16:44:05.7930381+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T16:44:05.9333741+00:00 ContainerStatus: Stop and delete container. Retry count = 0
+2026-09-23T16:44:05.9334627+00:00 ContainerStatus: Stopping container: 16fb26d9a60a_breast-cancer-classfication-system.
+2026-09-23T16:44:06.9073382+00:00 ContainerStream: [2026-09-23 16:44:06 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T16:44:06.9089647+00:00 ContainerStream: [2026-09-23 16:44:06 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T16:44:06.9166221+00:00 ContainerStream: [2026-09-23 16:44:06 +0000] [1] [INFO] Using worker: sync
+2026-09-23T16:44:06.9369913+00:00 ContainerStream: [2026-09-23 16:44:06 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T16:44:10.9513262+00:00 ContainerStatus: Deleting container: 16fb26d9a60a_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T16:44:11.3515848+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T16:44:11.3522674+00:00 ContainerStatus: Container is terminated. Total time elapsed: 5558 ms.
+2026-09-23T16:44:11.3528197+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T16:44:11.3535252+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/23/2026 16:44:05, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T16:44:11.3540118+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.

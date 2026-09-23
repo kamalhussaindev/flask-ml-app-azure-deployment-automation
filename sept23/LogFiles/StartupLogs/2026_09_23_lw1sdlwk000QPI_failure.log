@@ -1,0 +1,46 @@
+========== New Cold Start Attempt (2026-09-23T12:46:12.8823493+00:00) ==========
+2026-09-23T12:46:12.8823493+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:17.4437777+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:17.4441436+00:00 ContainerStatus: Container start method called.
+2026-09-23T12:46:17.4948004+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:46:17.4951025+00:00 ContainerStatus: Establishing network.
+2026-09-23T12:46:17.4960108+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773.
+2026-09-23T12:46:20.4633095+00:00 ContainerStatus: Container pull image interrupted. Revert by terminate.
+2026-09-23T12:46:20.4633760+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T12:46:20.4635187+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T12:46:20.5056020+00:00 ContainerStatus: Container is terminated. Total time elapsed: 19 ms.
+2026-09-23T12:46:20.5057250+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T12:46:20.5338889+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T12:46:20.6052199+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+========== New Cold Start Attempt (2026-09-23T12:46:21.9028867+00:00) ==========
+2026-09-23T12:46:21.9028867+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated. Stopping the entire site.
+2026-09-23T12:46:22.1240961+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:22.1540044+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:22.1545982+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:46:23.8034871+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:26.7198819+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:26.7199382+00:00 ContainerStatus: Container start method called.
+2026-09-23T12:46:26.7199651+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:46:26.7200002+00:00 ContainerStatus: Establishing network.
+2026-09-23T12:46:26.7200522+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773.
+2026-09-23T12:46:28.1776210+00:00 ContainerStatus: Container pull image interrupted. Revert by terminate.
+2026-09-23T12:46:28.1777085+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T12:46:28.1777807+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T12:46:28.1778300+00:00 ContainerStatus: Container is terminated. Total time elapsed: 0 ms.
+2026-09-23T12:46:28.1778862+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T12:46:28.1779818+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T12:46:28.1783026+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:28, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+========== New Cold Start Attempt (2026-09-23T12:50:06.3573123+00:00) ==========
+2026-09-23T12:50:06.3573123+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3584957+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3678166+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3678252+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:07.3339476+00:00 ContainerStream: [Previous Container] 2026-09-23T12:50:07.309926Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.46).
+2026-09-23T12:50:07.3900402+00:00 ContainerStream: [Previous Container] [2026-09-23 12:50:07 +0000] [1] [INFO] Handling signal: term
+2026-09-23T12:50:07.4445947+00:00 ContainerStream: [Previous Container] [2026-09-23 12:50:07 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T12:50:13.7789493+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:55:51.4043379+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:55:52.2608540+00:00 ContainerStatus: State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2986712+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2990668+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2990997+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.

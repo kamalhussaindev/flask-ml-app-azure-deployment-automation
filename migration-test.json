@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "image": "mysql:8.0",
+    "isMain": false,
+    "targetPort": null,
+    "environmentVariables": [
+      {
+        "name": "DB_MIGRATION_SAS",
+        "value": "DB_MIGRATION_SAS"
+      },
+      {
+        "name": "MYSQL_ROOT_PASSWORD",
+        "value": "MYSQL_ROOT_PASSWORD"
+      }
+    ],
+    "startUpCommand": "sleep 3600"
+  }
+}

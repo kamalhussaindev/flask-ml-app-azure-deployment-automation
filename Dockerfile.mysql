@@ -1,0 +1,4 @@
+FROM mysql:8.0
+ENV MYSQL_ROOT_PASSWORD=BreastCancer2026
+ENV MYSQL_DATABASE=epca
+COPY epca.sql /docker-entrypoint-initdb.d/epca.sql

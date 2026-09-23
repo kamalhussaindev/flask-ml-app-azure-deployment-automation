@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "image": "mysql:8.0",
+    "isMain": false,
+    "targetPort": null,
+    "environmentVariables": [
+      {
+        "name": "DB_MIGRATION_SAS",
+        "value": "DB_MIGRATION_SAS"
+      },
+      {
+        "name": "MYSQL_ROOT_PASSWORD",
+        "value": "MYSQL_ROOT_PASSWORD"
+      }
+    ],
+    "startUpCommand": "echo DB_SAS_LENGTH=$(printenv DB_MIGRATION_SAS | wc -c); echo MYSQL_PASSWORD_SET=$(printenv MYSQL_ROOT_PASSWORD | wc -c); sleep 3600"
+  }
+}

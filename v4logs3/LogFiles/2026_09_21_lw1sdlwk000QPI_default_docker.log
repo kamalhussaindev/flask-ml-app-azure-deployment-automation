@@ -1,0 +1,482 @@
+2026-09-21T09:04:58.4978973Z 2026-09-21 09:04:58+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:05:07.4596668Z 2026-09-21 09:05:07+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2026-09-21T09:05:07.6226886Z 2026-09-21 09:05:07+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:05:11.4314005Z [2026-09-21 09:05:11 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-21T09:05:11.4617073Z [2026-09-21 09:05:11 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-21T09:05:11.4625985Z [2026-09-21 09:05:11 +0000] [1] [INFO] Using worker: sync
+2026-09-21T09:05:11.5541472Z [2026-09-21 09:05:11 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-21T09:05:12.1467980Z 2026-09-21 09:05:12+00:00 [Note] [Entrypoint]: Initializing database files
+2026-09-21T09:05:12.3085011Z 2026-09-21T09:05:12.257955Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:05:12.3256748Z 2026-09-21T09:05:12.279352Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.46) initializing of server in progress as process 78
+2026-09-21T09:05:12.4190867Z 2026-09-21T09:05:12.418942Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:05:19.8455855Z 2026-09-21T09:05:19.825337Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:05:33.1428260Z 2026-09-21T09:05:33.141995Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2026-09-21T09:05:41.4691422Z 2026-09-21 09:05:41+00:00 [Note] [Entrypoint]: Database files initialized
+2026-09-21T09:05:41.4849145Z 2026-09-21 09:05:41+00:00 [Note] [Entrypoint]: Starting temporary server
+2026-09-21T09:05:42.9079017Z 2026-09-21T09:05:42.792714Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:05:42.9079407Z 2026-09-21T09:05:42.811223Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 118
+2026-09-21T09:05:42.9423100Z 2026-09-21T09:05:42.941619Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:05:46.2286950Z 2026-09-21T09:05:46.168629Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:05:50.6125453Z 2026-09-21T09:05:50.612329Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:05:50.6221954Z 2026-09-21T09:05:50.622072Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:05:50.7135461Z 2026-09-21T09:05:50.713436Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:05:51.0141705Z 2026-09-21T09:05:51.014036Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:05:51.0222841Z 2026-09-21T09:05:51.022205Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2026-09-21T09:05:51.2847861Z 2026-09-21 09:05:51+00:00 [Note] [Entrypoint]: Temporary server started.
+2026-09-21T09:05:51.7245067Z '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+2026-09-21T09:06:02.2393632Z Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+2026-09-21T09:06:02.2394031Z Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+2026-09-21T09:06:02.2400699Z Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.
+2026-09-21T09:06:09.9231156Z Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.
+2026-09-21T09:06:09.9240480Z Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+2026-09-21T09:06:09.9514837Z Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+2026-09-21T09:06:10.4454139Z 2026-09-21 09:06:10+00:00 [Note] [Entrypoint]: Creating database epca
+2026-09-21T09:06:10.5351300Z 2026-09-21 09:06:10+00:00 [Note] [Entrypoint]: Creating user breastapp
+2026-09-21T09:06:10.6450726Z 2026-09-21 09:06:10+00:00 [Note] [Entrypoint]: Giving user breastapp access to schema epca
+2026-09-21T09:06:10.6959322Z 
+2026-09-21T09:06:10.7150262Z 2026-09-21 09:06:10+00:00 [Note] [Entrypoint]: Stopping temporary server
+2026-09-21T09:06:10.7666368Z 2026-09-21T09:06:10.766446Z 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:06:12.2125399Z 2026-09-21T09:06:12.209996Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+2026-09-21T09:06:12.7816668Z 2026-09-21 09:06:12+00:00 [Note] [Entrypoint]: Temporary server stopped
+2026-09-21T09:06:12.7817085Z 
+2026-09-21T09:06:12.7917080Z 2026-09-21 09:06:12+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+2026-09-21T09:06:12.7926017Z 
+2026-09-21T09:06:13.5749983Z 2026-09-21T09:06:13.555725Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:06:13.5752879Z 2026-09-21T09:06:13.565420Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 1
+2026-09-21T09:06:13.5971189Z 2026-09-21T09:06:13.597022Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:06:14.2793963Z 2026-09-21T09:06:14.279277Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:06:15.0249556Z 2026-09-21T09:06:15.024838Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:06:15.0322042Z 2026-09-21T09:06:15.032150Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:06:15.0349587Z 2026-09-21T09:06:15.034896Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:06:15.1328970Z 2026-09-21T09:06:15.132790Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2026-09-21T09:06:15.1337177Z 2026-09-21T09:06:15.133431Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:07:55.4923930Z 2026-09-21 09:07:55+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:07:57.4101525Z [2026-09-21 09:07:57 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-21T09:07:57.4110233Z [2026-09-21 09:07:57 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-21T09:07:57.4111718Z [2026-09-21 09:07:57 +0000] [1] [INFO] Using worker: sync
+2026-09-21T09:07:57.4331124Z [2026-09-21 09:07:57 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-21T09:07:58.3957506Z 2026-09-21 09:07:58+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2026-09-21T09:07:58.7183133Z 2026-09-21 09:07:58+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:08:00.6181451Z 2026-09-21 09:08:00+00:00 [Note] [Entrypoint]: Initializing database files
+2026-09-21T09:08:00.8497176Z 2026-09-21T09:08:00.769902Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:08:00.8585516Z 2026-09-21T09:08:00.847426Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.46) initializing of server in progress as process 78
+2026-09-21T09:08:01.0291834Z 2026-09-21T09:08:01.028948Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:08:05.9728760Z 2026-09-21T09:08:05.964120Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:08:11.2119871Z 2026-09-21T09:08:11.211852Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2026-09-21T09:08:15.1467182Z [2026-09-21 09:08:15,091] ERROR in app: Exception on /login [POST]
+2026-09-21T09:08:15.1467632Z Traceback (most recent call last):
+2026-09-21T09:08:15.1467651Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:08:15.1467666Z     response = self.full_dispatch_request()
+2026-09-21T09:08:15.1467683Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:08:15.1467719Z     rv = self.handle_user_exception(e)
+2026-09-21T09:08:15.1467736Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:08:15.1467749Z     rv = self.dispatch_request()
+2026-09-21T09:08:15.1467767Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:08:15.1467786Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:08:15.1467801Z   File "/app/app.py", line 221, in login
+2026-09-21T09:08:15.1467839Z     cur = mysql.connection.cursor()
+2026-09-21T09:08:15.1467856Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-21T09:08:15.1467870Z     ctx.mysql_db = self.connect
+2026-09-21T09:08:15.1467887Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-21T09:08:15.1467900Z     return MySQLdb.connect(**kwargs)
+2026-09-21T09:08:15.1467916Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-21T09:08:15.1467932Z     return Connection(*args, **kwargs)
+2026-09-21T09:08:15.1467949Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-21T09:08:15.1467962Z     super().__init__(*args, **kwargs2)
+2026-09-21T09:08:15.1467977Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-21T09:08:17.8771607Z 2026-09-21 09:08:17+00:00 [Note] [Entrypoint]: Database files initialized
+2026-09-21T09:08:17.8880002Z 2026-09-21 09:08:17+00:00 [Note] [Entrypoint]: Starting temporary server
+2026-09-21T09:08:19.1119104Z 2026-09-21T09:08:19.020563Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:08:19.1201235Z 2026-09-21T09:08:19.031599Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 118
+2026-09-21T09:08:19.1711473Z 2026-09-21T09:08:19.170456Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:08:20.8187441Z 2026-09-21T09:08:20.809180Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:08:22.4470064Z 2026-09-21T09:08:22.446868Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:08:22.4520000Z 2026-09-21T09:08:22.451922Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:08:22.4631882Z 2026-09-21T09:08:22.463113Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:08:22.5642137Z 2026-09-21T09:08:22.564072Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:08:22.5728022Z 2026-09-21T09:08:22.572721Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2026-09-21T09:08:22.6763278Z 2026-09-21 09:08:22+00:00 [Note] [Entrypoint]: Temporary server started.
+2026-09-21T09:08:22.9146257Z '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+2026-09-21T09:08:26.9410989Z Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+2026-09-21T09:08:26.9589671Z Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+2026-09-21T09:08:26.9594233Z Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.
+2026-09-21T09:08:32.7453968Z [Previous Container] 2026-09-21T09:08:32.714683Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:08:32.7863417Z [Previous Container] [2026-09-21 09:08:32 +0000] [1] [INFO] Handling signal: term
+2026-09-21T09:08:32.8170333Z [Previous Container] [2026-09-21 09:08:32 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-21T09:08:33.9794359Z [Previous Container] [2026-09-21 09:08:33 +0000] [1] [INFO] Shutting down: Master
+2026-09-21T09:08:34.1688763Z [Previous Container] 2026-09-21T09:08:34.168647Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+2026-09-21T09:08:36.8155105Z Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.
+2026-09-21T09:08:36.8240347Z Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+2026-09-21T09:08:36.8244175Z Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+2026-09-21T09:08:39.5950661Z 2026-09-21 09:08:39+00:00 [Note] [Entrypoint]: Creating database epca
+2026-09-21T09:08:39.7241908Z 2026-09-21 09:08:39+00:00 [Note] [Entrypoint]: Creating user breastapp
+2026-09-21T09:08:39.9153178Z 2026-09-21 09:08:39+00:00 [Note] [Entrypoint]: Giving user breastapp access to schema epca
+2026-09-21T09:08:39.9885338Z 
+2026-09-21T09:08:40.0253079Z 2026-09-21 09:08:40+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/epca.sql
+2026-09-21T09:08:40.6502520Z 
+2026-09-21T09:08:40.6502799Z 
+2026-09-21T09:08:40.6783821Z 2026-09-21 09:08:40+00:00 [Note] [Entrypoint]: Stopping temporary server
+2026-09-21T09:08:40.7385996Z 2026-09-21T09:08:40.738513Z 14 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:08:42.4985235Z 2026-09-21T09:08:42.498435Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+2026-09-21T09:08:42.7528960Z 2026-09-21 09:08:42+00:00 [Note] [Entrypoint]: Temporary server stopped
+2026-09-21T09:08:42.7607339Z 
+2026-09-21T09:08:42.7724740Z 2026-09-21 09:08:42+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+2026-09-21T09:08:42.7730773Z 
+2026-09-21T09:08:43.8652621Z 2026-09-21T09:08:43.796913Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:08:43.8652879Z 2026-09-21T09:08:43.808091Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 1
+2026-09-21T09:08:43.9264651Z 2026-09-21T09:08:43.907470Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:08:45.3206205Z 2026-09-21T09:08:45.319596Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:08:45.7423968Z [2026-09-21 09:08:45,736] ERROR in app: Exception on /login [POST]
+2026-09-21T09:08:45.7424377Z Traceback (most recent call last):
+2026-09-21T09:08:45.7424399Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:08:45.7424415Z     response = self.full_dispatch_request()
+2026-09-21T09:08:45.7424431Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:08:45.7424446Z     rv = self.handle_user_exception(e)
+2026-09-21T09:08:45.7424464Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:08:45.7424477Z     rv = self.dispatch_request()
+2026-09-21T09:08:45.7424493Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:08:45.7424511Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:08:45.7424525Z   File "/app/app.py", line 221, in login
+2026-09-21T09:08:45.7424538Z     cur = mysql.connection.cursor()
+2026-09-21T09:08:45.7424555Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-21T09:08:45.7424620Z     ctx.mysql_db = self.connect
+2026-09-21T09:08:45.7424638Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-21T09:08:45.7424652Z     return MySQLdb.connect(**kwargs)
+2026-09-21T09:08:45.7424668Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-21T09:08:45.7424683Z     return Connection(*args, **kwargs)
+2026-09-21T09:08:45.7424699Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-21T09:08:45.7424713Z     super().__init__(*args, **kwargs2)
+2026-09-21T09:08:45.7424728Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-21T09:08:46.9916375Z 2026-09-21T09:08:46.991524Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:08:47.0005516Z 2026-09-21T09:08:46.998370Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:08:47.0015587Z 2026-09-21T09:08:47.000731Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:08:47.1090131Z 2026-09-21T09:08:47.108891Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:08:47.1101970Z 2026-09-21T09:08:47.110127Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2026-09-21T09:09:37.2927678Z 2026-09-21 09:09:37+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:09:41.9746306Z 2026-09-21 09:09:41+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2026-09-21T09:09:42.3965585Z 2026-09-21 09:09:42+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:09:49.6781996Z 2026-09-21 09:09:49+00:00 [Note] [Entrypoint]: Initializing database files
+2026-09-21T09:09:49.9305275Z 2026-09-21T09:09:49.902192Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:09:49.9315172Z 2026-09-21T09:09:49.910572Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.46) initializing of server in progress as process 78
+2026-09-21T09:09:50.1325083Z 2026-09-21T09:09:50.130626Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:09:53.1455044Z [2026-09-21 09:09:53 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-21T09:09:53.2769348Z [2026-09-21 09:09:53 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-21T09:09:53.2777113Z [2026-09-21 09:09:53 +0000] [1] [INFO] Using worker: sync
+2026-09-21T09:09:53.3587931Z [2026-09-21 09:09:53 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-21T09:09:59.4037414Z 2026-09-21T09:09:59.402405Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:10:16.4808345Z 2026-09-21T09:10:16.480704Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2026-09-21T09:10:23.4742072Z 2026-09-21 09:10:23+00:00 [Note] [Entrypoint]: Database files initialized
+2026-09-21T09:10:23.6229989Z 2026-09-21 09:10:23+00:00 [Note] [Entrypoint]: Starting temporary server
+2026-09-21T09:10:24.8839667Z 2026-09-21T09:10:24.831221Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:10:24.9012833Z 2026-09-21T09:10:24.834278Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 118
+2026-09-21T09:10:24.9447520Z 2026-09-21T09:10:24.944212Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:10:26.8036796Z 2026-09-21T09:10:26.797147Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:10:29.4235937Z 2026-09-21T09:10:29.423452Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:10:29.4238581Z 2026-09-21T09:10:29.423811Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:10:29.4320936Z 2026-09-21T09:10:29.431440Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:10:29.5113489Z 2026-09-21T09:10:29.511282Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2026-09-21T09:10:29.5126194Z 2026-09-21T09:10:29.511453Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:10:29.6441686Z 2026-09-21 09:10:29+00:00 [Note] [Entrypoint]: Temporary server started.
+2026-09-21T09:10:29.9846969Z '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+2026-09-21T09:10:32.7171011Z [Previous Container] 2026-09-21T09:10:32.629426Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:10:32.8681280Z [Previous Container] [2026-09-21 09:10:32 +0000] [1] [INFO] Handling signal: term
+2026-09-21T09:10:32.8988527Z [Previous Container] [2026-09-21 09:10:32 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-21T09:10:33.8625837Z [Previous Container] [2026-09-21 09:10:33 +0000] [1] [INFO] Shutting down: Master
+2026-09-21T09:10:34.8137970Z [Previous Container] 2026-09-21T09:10:34.813715Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+2026-09-21T09:10:34.9441977Z Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+2026-09-21T09:10:34.9933327Z Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+2026-09-21T09:10:34.9933475Z Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.
+2026-09-21T09:10:47.8593829Z Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.
+2026-09-21T09:10:47.8771779Z Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+2026-09-21T09:10:47.8772100Z Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+2026-09-21T09:10:48.4923314Z 2026-09-21 09:10:48+00:00 [Note] [Entrypoint]: Creating database epca
+2026-09-21T09:10:48.6012366Z 2026-09-21 09:10:48+00:00 [Note] [Entrypoint]: Creating user breastapp
+2026-09-21T09:10:48.6900018Z 2026-09-21 09:10:48+00:00 [Note] [Entrypoint]: Giving user breastapp access to schema epca
+2026-09-21T09:10:48.7502825Z 
+2026-09-21T09:10:48.7618061Z 2026-09-21 09:10:48+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/epca.sql
+2026-09-21T09:10:49.2525205Z 
+2026-09-21T09:10:49.2525612Z 
+2026-09-21T09:10:49.2731873Z 2026-09-21 09:10:49+00:00 [Note] [Entrypoint]: Stopping temporary server
+2026-09-21T09:10:49.3409926Z 2026-09-21T09:10:49.340855Z 14 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:10:50.6324766Z 2026-09-21T09:10:50.632336Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+2026-09-21T09:10:51.3833594Z 2026-09-21 09:10:51+00:00 [Note] [Entrypoint]: Temporary server stopped
+2026-09-21T09:10:51.3836199Z 
+2026-09-21T09:10:51.3836321Z 2026-09-21 09:10:51+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+2026-09-21T09:10:51.3836336Z 
+2026-09-21T09:10:52.1680863Z 2026-09-21T09:10:52.148102Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:10:52.1689016Z 2026-09-21T09:10:52.156668Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 1
+2026-09-21T09:10:52.1903782Z 2026-09-21T09:10:52.189880Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:10:53.3460699Z 2026-09-21T09:10:53.345930Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:10:54.0209330Z 2026-09-21T09:10:54.020814Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:10:54.0216429Z 2026-09-21T09:10:54.021578Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:10:54.0326027Z 2026-09-21T09:10:54.032526Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:10:54.1313180Z 2026-09-21T09:10:54.131193Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2026-09-21T09:10:54.1322610Z 2026-09-21T09:10:54.132079Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:11:40.7166956Z 2026-09-21 09:11:40.696329: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-09-21T09:11:40.7442970Z 2026-09-21 09:11:40.744212: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-21T09:11:42.0363995Z 2026-09-21 09:11:42.035986: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2026-09-21T09:11:42.0364364Z To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-21T09:11:53.8439829Z 2026-09-21 09:11:53.843592: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-21T09:11:53.8521760Z 2026-09-21 09:11:53.851620: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-09-21T09:11:55.7218147Z /root/.local/lib/python3.9/site-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+2026-09-21T09:11:55.7219774Z   super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2026-09-21T09:11:55.7660913Z 2026-09-21 09:11:55.765918: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+2026-09-21T09:12:05.9746272Z [2026-09-21 09:12:05,963] ERROR in app: Exception on /eczpso_pdf/59 [GET]
+2026-09-21T09:12:05.9746705Z Traceback (most recent call last):
+2026-09-21T09:12:05.9746730Z   File "/root/.local/lib/python3.9/site-packages/pdfkit/configuration.py", line 35, in __init__
+2026-09-21T09:12:05.9746751Z     with open(self.wkhtmltopdf) as f:
+2026-09-21T09:12:05.9746767Z FileNotFoundError: [Errno 2] No such file or directory: b''
+2026-09-21T09:12:05.9748497Z 
+2026-09-21T09:12:05.9748530Z During handling of the above exception, another exception occurred:
+2026-09-21T09:12:05.9748541Z 
+2026-09-21T09:12:05.9748636Z Traceback (most recent call last):
+2026-09-21T09:12:05.9748657Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:12:05.9748672Z     response = self.full_dispatch_request()
+2026-09-21T09:12:05.9748688Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:12:05.9748702Z     rv = self.handle_user_exception(e)
+2026-09-21T09:12:05.9748718Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:12:05.9748731Z     rv = self.dispatch_request()
+2026-09-21T09:12:05.9748747Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:12:05.9748765Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:12:05.9748811Z   File "/app/app.py", line 271, in wrap
+2026-09-21T09:12:05.9748825Z     return f(*args,**kwargs)
+2026-09-21T09:12:05.9748839Z   File "/app/app.py", line 309, in wrap
+2026-09-21T09:12:05.9748852Z     return f(*args,**kwargs)
+2026-09-21T09:12:05.9748866Z   File "/app/app.py", line 981, in eczpso_pdf
+2026-09-21T09:12:05.9748881Z     pdf = pdfkit.from_string(rendered,False,options=options)
+2026-09-21T09:12:05.9748897Z   File "/root/.local/lib/python3.9/site-packages/pdfkit/api.py", line 72, in from_string
+2026-09-21T09:12:05.9748912Z     r = PDFKit(input, 'string', options=options, toc=toc, cover=cover, css=css,
+2026-09-21T09:12:05.9748928Z   File "/root/.local/lib/python3.9/site-packages/pdfkit/pdfkit.py", line 45, in __init__
+2026-09-21T09:12:05.9748942Z     self.configuration = (Configuration() if configuration is None
+2026-09-21T09:12:05.9748958Z   File "/root/.local/lib/python3.9/site-packages/pdfkit/configuration.py", line 38, in __init__
+2026-09-21T09:12:05.9748974Z     raise IOError('No wkhtmltopdf executable found: "%s"\n'
+2026-09-21T09:12:05.9748988Z OSError: No wkhtmltopdf executable found: "b''"
+2026-09-21T09:12:05.9749033Z If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2026-09-21T09:20:53.0062939Z 2026-09-21 09:20:53+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:21:01.0986568Z 2026-09-21 09:21:01+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2026-09-21T09:21:01.6101035Z 2026-09-21 09:21:01+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:21:02.4822724Z [2026-09-21 09:21:02 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-21T09:21:02.4824233Z [2026-09-21 09:21:02 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-21T09:21:02.4824273Z [2026-09-21 09:21:02 +0000] [1] [INFO] Using worker: sync
+2026-09-21T09:21:02.5255481Z [2026-09-21 09:21:02 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-21T09:21:04.9776043Z 2026-09-21 09:21:04+00:00 [Note] [Entrypoint]: Initializing database files
+2026-09-21T09:21:05.1173094Z 2026-09-21T09:21:05.047112Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:21:05.1183954Z 2026-09-21T09:21:05.097635Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.46) initializing of server in progress as process 78
+2026-09-21T09:21:05.2667201Z 2026-09-21T09:21:05.266630Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:21:10.0404787Z 2026-09-21T09:21:10.030919Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:21:18.1844248Z 2026-09-21T09:21:18.184270Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2026-09-21T09:21:25.1755454Z 2026-09-21 09:21:25+00:00 [Note] [Entrypoint]: Database files initialized
+2026-09-21T09:21:25.1842129Z 2026-09-21 09:21:25+00:00 [Note] [Entrypoint]: Starting temporary server
+2026-09-21T09:21:26.6422532Z 2026-09-21T09:21:26.512110Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:21:26.6506352Z 2026-09-21T09:21:26.549674Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 118
+2026-09-21T09:21:26.6738787Z 2026-09-21T09:21:26.673779Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:21:28.2309381Z 2026-09-21T09:21:28.229873Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:21:30.1814615Z 2026-09-21T09:21:30.177469Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:21:30.1815331Z 2026-09-21T09:21:30.177512Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:21:30.1925747Z 2026-09-21T09:21:30.192371Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:21:30.2646977Z 2026-09-21T09:21:30.264590Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2026-09-21T09:21:30.2738590Z 2026-09-21T09:21:30.272009Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:21:30.3823819Z 2026-09-21 09:21:30+00:00 [Note] [Entrypoint]: Temporary server started.
+2026-09-21T09:21:30.6533536Z '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+2026-09-21T09:21:34.2709326Z Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+2026-09-21T09:21:34.3085499Z Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+2026-09-21T09:21:34.3086181Z Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.
+2026-09-21T09:21:35.4733393Z [Previous Container] 2026-09-21T09:21:35.451349Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:21:36.4348956Z [Previous Container] [2026-09-21 09:21:36 +0000] [1] [INFO] Handling signal: term
+2026-09-21T09:21:36.8574613Z [Previous Container] [2026-09-21 09:21:36 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-21T09:21:44.8826790Z [2026-09-21 09:21:44,464] ERROR in app: Exception on /login [POST]
+2026-09-21T09:21:44.8826960Z Traceback (most recent call last):
+2026-09-21T09:21:44.8826980Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:21:44.8826996Z     response = self.full_dispatch_request()
+2026-09-21T09:21:44.8827012Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:21:44.8827039Z     rv = self.handle_user_exception(e)
+2026-09-21T09:21:44.8827056Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:21:44.8827069Z     rv = self.dispatch_request()
+2026-09-21T09:21:44.8827086Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:21:44.8827107Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:21:44.8827121Z   File "/app/app.py", line 221, in login
+2026-09-21T09:21:44.8827152Z     cur = mysql.connection.cursor()
+2026-09-21T09:21:44.8827169Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-21T09:21:44.8827183Z     ctx.mysql_db = self.connect
+2026-09-21T09:21:44.8827200Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-21T09:21:44.8827214Z     return MySQLdb.connect(**kwargs)
+2026-09-21T09:21:44.8827231Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-21T09:21:44.8827247Z     return Connection(*args, **kwargs)
+2026-09-21T09:21:44.8827265Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-21T09:21:44.8827277Z     super().__init__(*args, **kwargs2)
+2026-09-21T09:21:44.8827293Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-21T09:21:47.9272601Z [2026-09-21 09:21:47,917] ERROR in app: Exception on /login [POST]
+2026-09-21T09:21:47.9273046Z Traceback (most recent call last):
+2026-09-21T09:21:47.9273069Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:21:47.9273086Z     response = self.full_dispatch_request()
+2026-09-21T09:21:47.9273103Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:21:47.9273118Z     rv = self.handle_user_exception(e)
+2026-09-21T09:21:47.9273134Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:21:47.9273147Z     rv = self.dispatch_request()
+2026-09-21T09:21:47.9273164Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:21:47.9273182Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:21:47.9273196Z   File "/app/app.py", line 221, in login
+2026-09-21T09:21:47.9273210Z     cur = mysql.connection.cursor()
+2026-09-21T09:21:47.9273228Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-21T09:21:47.9276440Z     ctx.mysql_db = self.connect
+2026-09-21T09:21:47.9276476Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-21T09:21:47.9276491Z     return MySQLdb.connect(**kwargs)
+2026-09-21T09:21:47.9276508Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-21T09:21:47.9276521Z     return Connection(*args, **kwargs)
+2026-09-21T09:21:47.9276539Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-21T09:21:47.9276553Z     super().__init__(*args, **kwargs2)
+2026-09-21T09:21:47.9276569Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-21T09:21:48.3387588Z Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.
+2026-09-21T09:21:48.3410975Z Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+2026-09-21T09:21:48.3613532Z Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+2026-09-21T09:21:48.9654307Z 2026-09-21 09:21:48+00:00 [Note] [Entrypoint]: Creating database epca
+2026-09-21T09:21:49.1035372Z 2026-09-21 09:21:49+00:00 [Note] [Entrypoint]: Creating user breastapp
+2026-09-21T09:21:49.2126551Z 2026-09-21 09:21:49+00:00 [Note] [Entrypoint]: Giving user breastapp access to schema epca
+2026-09-21T09:21:49.2666645Z 
+2026-09-21T09:21:49.2839005Z 2026-09-21 09:21:49+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/epca.sql
+2026-09-21T09:21:49.6457071Z 
+2026-09-21T09:21:49.6465359Z 
+2026-09-21T09:21:49.6660639Z 2026-09-21 09:21:49+00:00 [Note] [Entrypoint]: Stopping temporary server
+2026-09-21T09:21:49.7196422Z 2026-09-21T09:21:49.719548Z 14 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:21:51.1780116Z 2026-09-21T09:21:51.177770Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+2026-09-21T09:21:51.7369721Z 2026-09-21 09:21:51+00:00 [Note] [Entrypoint]: Temporary server stopped
+2026-09-21T09:21:51.7370078Z 
+2026-09-21T09:21:51.7557871Z 2026-09-21 09:21:51+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+2026-09-21T09:21:51.7558073Z 
+2026-09-21T09:21:52.5018706Z 2026-09-21T09:21:52.482819Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:21:52.5104451Z 2026-09-21T09:21:52.491009Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 1
+2026-09-21T09:21:52.5316033Z 2026-09-21T09:21:52.531489Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:21:53.3149789Z 2026-09-21T09:21:53.314838Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:21:53.9483087Z 2026-09-21T09:21:53.948149Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:21:53.9491967Z 2026-09-21T09:21:53.949126Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:21:53.9595582Z 2026-09-21T09:21:53.959219Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:21:54.0391829Z 2026-09-21T09:21:54.039097Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2026-09-21T09:21:54.0465580Z 2026-09-21T09:21:54.046209Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:30:49.5156435Z [2026-09-21 09:30:49,504] ERROR in app: Exception on /forgot [POST]
+2026-09-21T09:30:49.5158379Z Traceback (most recent call last):
+2026-09-21T09:30:49.5158408Z   File "/root/.local/lib/python3.9/site-packages/wtforms/validators.py", line 401, in __call__
+2026-09-21T09:30:49.5158424Z     import email_validator
+2026-09-21T09:30:49.5158440Z ModuleNotFoundError: No module named 'email_validator'
+2026-09-21T09:30:49.5158453Z 
+2026-09-21T09:30:49.5158469Z The above exception was the direct cause of the following exception:
+2026-09-21T09:30:49.5158481Z 
+2026-09-21T09:30:49.5158496Z Traceback (most recent call last):
+2026-09-21T09:30:49.5158512Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T09:30:49.5158527Z     response = self.full_dispatch_request()
+2026-09-21T09:30:49.5158545Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T09:30:49.5158559Z     rv = self.handle_user_exception(e)
+2026-09-21T09:30:49.5158602Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T09:30:49.5158617Z     rv = self.dispatch_request()
+2026-09-21T09:30:49.5158634Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T09:30:49.5158652Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T09:30:49.5158666Z   File "/app/app.py", line 559, in forgot
+2026-09-21T09:30:49.5158680Z     if request.method == 'POST' and form.validate():
+2026-09-21T09:30:49.5158697Z   File "/root/.local/lib/python3.9/site-packages/wtforms/form.py", line 330, in validate
+2026-09-21T09:30:49.5158711Z     return super().validate(extra)
+2026-09-21T09:30:49.5158727Z   File "/root/.local/lib/python3.9/site-packages/wtforms/form.py", line 147, in validate
+2026-09-21T09:30:49.5158741Z     if not field.validate(self, extra):
+2026-09-21T09:30:49.5158758Z   File "/root/.local/lib/python3.9/site-packages/wtforms/fields/core.py", line 234, in validate
+2026-09-21T09:30:49.5158773Z     stop_validation = self._run_validation_chain(form, chain)
+2026-09-21T09:30:49.5158807Z   File "/root/.local/lib/python3.9/site-packages/wtforms/fields/core.py", line 254, in _run_validation_chain
+2026-09-21T09:30:49.5158821Z     validator(form, self)
+2026-09-21T09:30:49.5158839Z   File "/root/.local/lib/python3.9/site-packages/wtforms/validators.py", line 403, in __call__
+2026-09-21T09:30:49.5158851Z     raise Exception(
+2026-09-21T09:30:49.5158866Z Exception: Install 'email_validator' for email validation support.
+2026-09-21T09:37:42.2096450Z 2026-09-21 09:37:42+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:37:50.1923369Z 2026-09-21 09:37:50+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2026-09-21T09:37:50.8374901Z 2026-09-21 09:37:50+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+2026-09-21T09:37:52.4543552Z [2026-09-21 09:37:52 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-21T09:37:52.4954044Z [2026-09-21 09:37:52 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-21T09:37:52.4967733Z [2026-09-21 09:37:52 +0000] [1] [INFO] Using worker: sync
+2026-09-21T09:37:52.6168795Z [2026-09-21 09:37:52 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-21T09:37:54.8764854Z 2026-09-21 09:37:54+00:00 [Note] [Entrypoint]: Initializing database files
+2026-09-21T09:37:55.0098646Z 2026-09-21T09:37:54.989341Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:37:55.0184382Z 2026-09-21T09:37:55.007478Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.46) initializing of server in progress as process 78
+2026-09-21T09:37:55.1402887Z 2026-09-21T09:37:55.140131Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:38:03.9030673Z 2026-09-21T09:38:03.825286Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:38:18.4408845Z 2026-09-21T09:38:18.440387Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2026-09-21T09:38:25.3402454Z 2026-09-21 09:38:25+00:00 [Note] [Entrypoint]: Database files initialized
+2026-09-21T09:38:25.3562285Z 2026-09-21 09:38:25+00:00 [Note] [Entrypoint]: Starting temporary server
+2026-09-21T09:38:26.9319329Z 2026-09-21T09:38:26.581442Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:38:26.9319531Z 2026-09-21T09:38:26.611422Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 118
+2026-09-21T09:38:26.9320000Z 2026-09-21T09:38:26.873984Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:38:29.6893550Z 2026-09-21T09:38:29.683396Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:38:31.9062412Z [Previous Container] 2026-09-21T09:38:31.727045Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:38:32.1809678Z [Previous Container] [2026-09-21 09:38:32 +0000] [1] [INFO] Handling signal: term
+2026-09-21T09:38:32.2032758Z [Previous Container] [2026-09-21 09:38:32 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-21T09:38:33.6108444Z [Previous Container] [2026-09-21 09:38:33 +0000] [1] [INFO] Shutting down: Master
+2026-09-21T09:38:33.9211321Z [Previous Container] 2026-09-21T09:38:33.921023Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+or this channel.
+2026-09-21T09:38:32.2666841Z 2026-09-21T09:38:32.266169Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:38:32.4262282Z 2026-09-21T09:38:32.409415Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2026-09-21T09:38:32.4271340Z 2026-09-21T09:38:32.416531Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T09:38:32.7179511Z 2026-09-21 09:38:32+00:00 [Note] [Entrypoint]: Temporary server started.
+2026-09-21T09:38:33.8722302Z '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+2026-09-21T09:38:43.4342173Z Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+2026-09-21T09:38:43.4433827Z Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+2026-09-21T09:38:43.4441822Z Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.
+2026-09-21T09:38:51.9605001Z Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.
+2026-09-21T09:38:51.9794077Z Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+2026-09-21T09:38:51.9810201Z Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+2026-09-21T09:38:52.7749170Z 2026-09-21 09:38:52+00:00 [Note] [Entrypoint]: Creating database epca
+2026-09-21T09:38:52.8553213Z 2026-09-21 09:38:52+00:00 [Note] [Entrypoint]: Creating user breastapp
+2026-09-21T09:38:52.9658090Z 2026-09-21 09:38:52+00:00 [Note] [Entrypoint]: Giving user breastapp access to schema epca
+2026-09-21T09:38:53.0281325Z 
+2026-09-21T09:38:53.0475510Z 2026-09-21 09:38:53+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/epca.sql
+2026-09-21T09:38:53.5811389Z 
+2026-09-21T09:38:53.5817626Z 
+2026-09-21T09:38:53.6171350Z 2026-09-21 09:38:53+00:00 [Note] [Entrypoint]: Stopping temporary server
+2026-09-21T09:38:53.6475698Z 2026-09-21T09:38:53.647496Z 14 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.46).
+2026-09-21T09:38:54.6484764Z 2026-09-21T09:38:54.648276Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+2026-09-21T09:38:54.7583691Z 2026-09-21 09:38:54+00:00 [Note] [Entrypoint]: Temporary server stopped
+2026-09-21T09:38:54.7590694Z 
+2026-09-21T09:38:54.8089469Z 2026-09-21 09:38:54+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+2026-09-21T09:38:54.8089719Z 
+2026-09-21T09:38:55.9741296Z 2026-09-21T09:38:55.943880Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2026-09-21T09:38:55.9743876Z 2026-09-21T09:38:55.955212Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 1
+2026-09-21T09:38:56.0039412Z 2026-09-21T09:38:56.003851Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-09-21T09:38:56.7587732Z 2026-09-21T09:38:56.747465Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-09-21T09:38:57.4014577Z 2026-09-21T09:38:57.393040Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-09-21T09:38:57.4014924Z 2026-09-21T09:38:57.399777Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-09-21T09:38:57.4102478Z 2026-09-21T09:38:57.401923Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-09-21T09:38:57.4714022Z 2026-09-21T09:38:57.471213Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2026-09-21T09:38:57.4723806Z 2026-09-21T09:38:57.471295Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2026-09-21T10:05:57.5538544Z 2026-09-21 10:05:57.549013: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-09-21T10:05:57.5767435Z 2026-09-21 10:05:57.576427: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-21T10:05:59.1245177Z 2026-09-21 10:05:59.092776: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2026-09-21T10:05:59.1245561Z To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-21T10:06:11.8517549Z 2026-09-21 10:06:11.851103: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-21T10:06:11.8684635Z 2026-09-21 10:06:11.868365: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-09-21T10:06:13.6874482Z /root/.local/lib/python3.9/site-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+2026-09-21T10:06:13.6874831Z   super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2026-09-21T10:06:13.7157277Z 2026-09-21 10:06:13.714867: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+2026-09-21T13:01:57.8470698Z [2026-09-21 13:01:57,728] ERROR in app: Exception on /forgot [POST]
+2026-09-21T13:01:57.8477348Z Traceback (most recent call last):
+2026-09-21T13:01:57.8477428Z   File "/root/.local/lib/python3.9/site-packages/wtforms/validators.py", line 401, in __call__
+2026-09-21T13:01:57.8477471Z     import email_validator
+2026-09-21T13:01:57.8477521Z ModuleNotFoundError: No module named 'email_validator'
+2026-09-21T13:01:57.8480064Z 
+2026-09-21T13:01:57.8480136Z The above exception was the direct cause of the following exception:
+2026-09-21T13:01:57.8480169Z 
+2026-09-21T13:01:57.8480211Z Traceback (most recent call last):
+2026-09-21T13:01:57.8480272Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-21T13:01:57.8480317Z     response = self.full_dispatch_request()
+2026-09-21T13:01:57.8480366Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-21T13:01:57.8480470Z     rv = self.handle_user_exception(e)
+2026-09-21T13:01:57.8480522Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-21T13:01:57.8480561Z     rv = self.dispatch_request()
+2026-09-21T13:01:57.8480610Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-21T13:01:57.8480663Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-21T13:01:57.8480714Z   File "/app/app.py", line 559, in forgot
+2026-09-21T13:01:57.8480758Z     if request.method == 'POST' and form.validate():
+2026-09-21T13:01:57.8480806Z   File "/root/.local/lib/python3.9/site-packages/wtforms/form.py", line 330, in validate
+2026-09-21T13:01:57.8480844Z     return super().validate(extra)
+2026-09-21T13:01:57.8480891Z   File "/root/.local/lib/python3.9/site-packages/wtforms/form.py", line 147, in validate
+2026-09-21T13:01:57.8480955Z     if not field.validate(self, extra):
+2026-09-21T13:01:57.8481006Z   File "/root/.local/lib/python3.9/site-packages/wtforms/fields/core.py", line 234, in validate
+2026-09-21T13:01:57.8481053Z     stop_validation = self._run_validation_chain(form, chain)
+2026-09-21T13:01:57.8481105Z   File "/root/.local/lib/python3.9/site-packages/wtforms/fields/core.py", line 254, in _run_validation_chain
+2026-09-21T13:01:57.8481144Z     validator(form, self)
+2026-09-21T13:01:57.8481191Z   File "/root/.local/lib/python3.9/site-packages/wtforms/validators.py", line 403, in __call__
+2026-09-21T13:01:57.8481228Z     raise Exception(
+2026-09-21T13:01:57.8481272Z Exception: Install 'email_validator' for email validation support.

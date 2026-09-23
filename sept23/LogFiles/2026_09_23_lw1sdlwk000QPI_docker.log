@@ -1,0 +1,199 @@
+2026-09-23T12:46:12.8823493Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:17.4437777Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:17.4441436Z Container start method called.
+2026-09-23T12:46:17.4948004Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:46:17.4951025Z Establishing network.
+2026-09-23T12:46:17.4960108Z Pulling image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773.
+2026-09-23T12:46:20.4633095Z Container pull image interrupted. Revert by terminate.
+2026-09-23T12:46:20.4633760Z Container is terminating. Grace period: 5 seconds.
+2026-09-23T12:46:20.4635187Z Container spec TerminationMessagePolicy  path 
+2026-09-23T12:46:20.5056020Z Container is terminated. Total time elapsed: 19 ms.
+2026-09-23T12:46:20.5057250Z Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T12:46:20.5338889Z State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T12:46:20.6052199Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:21.9028867Z Site container: breast-cancer-classfication-system terminated. Stopping the entire site.
+2026-09-23T12:46:22.1240961Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:22.1540044Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:20, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:22.1545982Z Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:46:23.8034871Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:26.7198819Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:26.7199382Z Container start method called.
+2026-09-23T12:46:26.7199651Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:46:26.7200002Z Establishing network.
+2026-09-23T12:46:26.7200522Z Pulling image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773.
+2026-09-23T12:46:28.1776210Z Container pull image interrupted. Revert by terminate.
+2026-09-23T12:46:28.1777085Z Container is terminating. Grace period: 5 seconds.
+2026-09-23T12:46:28.1777807Z Container spec TerminationMessagePolicy  path 
+2026-09-23T12:46:28.1778300Z Container is terminated. Total time elapsed: 0 ms.
+2026-09-23T12:46:28.1778862Z Site container: breast-cancer-classfication-system terminated during site startup.
+2026-09-23T12:46:28.1779818Z State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: breast-cancer-classfication-system terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-23T12:46:28.1783026Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:28, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:28.6325709Z Site container: breast-cancer-classfication-system terminated. Stopping the entire site.
+2026-09-23T12:46:28.6327027Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:28, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:28.6327918Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:28, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:28.6328091Z Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:46:29.5256353Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:32.6725136Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:32.6726221Z Container start method called.
+2026-09-23T12:46:32.6726604Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:46:32.6727003Z Establishing network.
+2026-09-23T12:46:32.6727592Z Pulling image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773.
+2026-09-23T12:49:38.3672297Z Image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 is pulled from registry docker.io
+2026-09-23T12:49:38.3837437Z Container is starting.
+2026-09-23T12:49:38.3882144Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:49:38.3943313Z Establishing user namespace if not established already.
+2026-09-23T12:49:38.3956760Z Establishing network if not established already.
+2026-09-23T12:49:38.3959128Z Mounting volumes.
+2026-09-23T12:49:38.4076886Z Nested mountpoint volatile/logs
+2026-09-23T12:49:38.4247302Z Nested mountpoint 
+2026-09-23T12:49:38.4343406Z Nested mountpoint 
+2026-09-23T12:49:38.5252253Z Nested mountpoint 
+2026-09-23T12:49:38.6737561Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T12:49:38.6743503Z Creating container.
+2026-09-23T12:49:38.6750447Z Creating pipes for streaming container io.
+2026-09-23T12:49:38.6751598Z Creating stdout named pipe at /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e.
+2026-09-23T12:49:38.7137088Z Successfully created stdout named pipe at: /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e.
+2026-09-23T12:49:38.7138133Z Opening named pipe /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e for reading in non-blocking mode.
+2026-09-23T12:49:38.7141807Z Successfully opened named pipe: /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e.
+2026-09-23T12:49:38.7142897Z Successfully removed non-blocking flag from /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e.
+2026-09-23T12:49:38.7232643Z Creating stderr named pipe at /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28.
+2026-09-23T12:49:38.7555572Z Successfully created stderr named pipe at: /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28.
+2026-09-23T12:49:38.7560201Z Opening named pipe /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28 for reading in non-blocking mode.
+2026-09-23T12:49:38.7642353Z Successfully opened named pipe: /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28.
+2026-09-23T12:49:38.7643473Z Successfully removed non-blocking flag from /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28.
+2026-09-23T12:49:38.7660189Z Overriding PORT environment variable with port exposed by container image.
+2026-09-23T12:49:39.1096707Z Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T12:49:39.1177501Z Setting value of PORT variable to 5000
+2026-09-23T12:49:39.1209091Z Creating container with image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773
+2026-09-23T12:49:39.9127557Z Starting container: 91cde4d24153_breast-cancer-classfication-system.
+2026-09-23T12:49:39.9776893Z Starting watchers and probes.
+2026-09-23T12:49:39.9879082Z Starting metrics collection.
+2026-09-23T12:49:39.9881017Z Container is running.
+2026-09-23T12:49:39.9962402Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T12:49:40.3397205Z Container start method finished after 187667 ms.
+2026-09-23T12:49:41.1210362Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T12:49:41.1499003Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T12:49:45.1660342Z Site startup probe succeeded after 3.9328347 seconds.
+2026-09-23T12:49:45.5325163Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 3.9328347 seconds., DetailsLevel: INFO
+2026-09-23T12:49:46.1667767Z Site is running with deployment version: 799310069e112e9f1f4dbe02b74d861649d097731790167564032
+2026-09-23T12:49:46.1678335Z Site started.
+2026-09-23T12:49:46.1691146Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/23/2026 12:49:46 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3573123Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3678166Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3584957Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:06.3678252Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/21/2026 09:38:09 (UTC), DetailsLevel: INFO
+2026-09-23T12:50:13.7789493Z Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:55:51.4043379Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:55:52.2608540Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2986712Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2990668Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:55:52.2990997Z Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:56:15.3018919Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/23/2026 12:49:46 (UTC), DetailsLevel: INFO
+2026-09-23T12:56:15.3025147Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/23/2026 12:49:46 (UTC), DetailsLevel: INFO
+2026-09-23T12:56:15.3026666Z Container is terminating. Grace period: 5 seconds.
+2026-09-23T12:56:15.3108029Z Stop and delete container. Retry count = 0
+2026-09-23T12:56:15.3108579Z Stopping container: 91cde4d24153_breast-cancer-classfication-system.
+2026-09-23T12:56:15.7660823Z Deleting container: 91cde4d24153_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T12:56:15.9761789Z Container spec TerminationMessagePolicy  path 
+2026-09-23T12:56:15.9765554Z Container is terminated. Total time elapsed: 673 ms.
+2026-09-23T12:56:15.9768610Z Site: breast-cancer-classfication-system stopped.
+2026-09-23T13:05:09.7920253Z State: Starting, Action: EstablishingSiteNetworks, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped at 09/23/2026 12:55:53 (UTC), DetailsLevel: WARN
+2026-09-23T13:05:11.8507590Z State: Starting, Action: StartingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped at 09/23/2026 12:55:53 (UTC), DetailsLevel: WARN
+2026-09-23T13:05:11.8508319Z Container start method called.
+2026-09-23T13:05:11.8508626Z State: Starting, Action: PullingImage, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:05:11.8509012Z Establishing network.
+2026-09-23T13:05:11.8509610Z Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T13:08:19.5813010Z Image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d is pulled from registry docker.io
+2026-09-23T13:08:19.5853244Z Container is starting.
+2026-09-23T13:08:19.6014276Z State: Starting, Action: MountingVolumes, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:08:19.6022694Z Establishing user namespace if not established already.
+2026-09-23T13:08:19.6030584Z Establishing network if not established already.
+2026-09-23T13:08:19.6031905Z Mounting volumes.
+2026-09-23T13:08:19.6228784Z Nested mountpoint volatile/logs
+2026-09-23T13:08:19.6416227Z Nested mountpoint 
+2026-09-23T13:08:19.6820573Z Nested mountpoint 
+2026-09-23T13:08:19.8274030Z Nested mountpoint 
+2026-09-23T13:08:19.9460574Z State: Starting, Action: CreatingContainer, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T13:08:19.9480991Z Creating container.
+2026-09-23T13:08:19.9660670Z Creating pipes for streaming container io.
+2026-09-23T13:08:19.9679800Z Creating stdout named pipe at /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc.
+2026-09-23T13:08:19.9756028Z Successfully created stdout named pipe at: /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc.
+2026-09-23T13:08:19.9877271Z Opening named pipe /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc for reading in non-blocking mode.
+2026-09-23T13:08:19.9882961Z Successfully opened named pipe: /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc.
+2026-09-23T13:08:20.0068230Z Successfully removed non-blocking flag from /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc.
+2026-09-23T13:08:20.0081157Z Creating stderr named pipe at /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502.
+2026-09-23T13:08:20.0082613Z Successfully created stderr named pipe at: /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502.
+2026-09-23T13:08:20.0083189Z Opening named pipe /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502 for reading in non-blocking mode.
+2026-09-23T13:08:20.0083704Z Successfully opened named pipe: /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502.
+2026-09-23T13:08:20.0084033Z Successfully removed non-blocking flag from /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502.
+2026-09-23T13:08:20.0367882Z Overriding PORT environment variable with port exposed by container image.
+2026-09-23T13:08:20.3301404Z Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T13:08:20.3309392Z Setting value of PORT variable to 5000
+2026-09-23T13:08:20.3403877Z Creating container with image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d
+2026-09-23T13:08:21.4172237Z Starting container: 2703af0cded8_breast-cancer-classfication-system.
+2026-09-23T13:08:21.5299916Z Starting watchers and probes.
+2026-09-23T13:08:21.5422414Z Starting metrics collection.
+2026-09-23T13:08:21.5505610Z Container is running.
+2026-09-23T13:08:21.5510397Z State: Starting, Action: CreatingContainer, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:08:21.7117667Z Container start method finished after 189860 ms.
+2026-09-23T13:08:21.7862786Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:08:21.8003221Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T13:08:26.5907886Z Site startup probe succeeded after 4.7788419 seconds.
+2026-09-23T13:08:26.7328736Z State: Starting, Action: WarmUpProbeSucceeded, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site startup probe succeeded after 4.7788419 seconds., DetailsLevel: INFO
+2026-09-23T13:08:27.0327278Z Site is running with deployment version: c9a477e26792d5b34210bedab9ffdf25c88c577d1790168316851
+2026-09-23T13:08:27.0358728Z Site started.
+2026-09-23T13:08:27.0365278Z State: Started, Action: None, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:08:27 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:17.4221998Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:20:19.7367698Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:20:19.7371505Z Container start method called.
+2026-09-23T13:20:19.7459736Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:20:19.7462632Z Establishing network.
+2026-09-23T13:20:19.7463961Z Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T13:20:22.1945071Z Container is starting.
+2026-09-23T13:20:22.1956488Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:20:22.1963551Z Establishing user namespace if not established already.
+2026-09-23T13:20:22.1965132Z Establishing network if not established already.
+2026-09-23T13:20:22.1969751Z Mounting volumes.
+2026-09-23T13:20:22.2054625Z Nested mountpoint volatile/logs
+2026-09-23T13:20:22.2365967Z Nested mountpoint 
+2026-09-23T13:20:22.6673305Z Nested mountpoint 
+2026-09-23T13:20:22.6864348Z Nested mountpoint 
+2026-09-23T13:20:23.0083777Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T13:20:23.0099045Z Creating container.
+2026-09-23T13:20:23.0194768Z Creating pipes for streaming container io.
+2026-09-23T13:20:23.0203526Z Creating stdout named pipe at /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2.
+2026-09-23T13:20:23.0387737Z Successfully created stdout named pipe at: /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2.
+2026-09-23T13:20:23.0389019Z Opening named pipe /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2 for reading in non-blocking mode.
+2026-09-23T13:20:23.0393938Z Successfully opened named pipe: /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2.
+2026-09-23T13:20:23.0398299Z Successfully removed non-blocking flag from /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2.
+2026-09-23T13:20:23.0797279Z Creating stderr named pipe at /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c.
+2026-09-23T13:20:23.0990067Z Successfully created stderr named pipe at: /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c.
+2026-09-23T13:20:23.0991665Z Opening named pipe /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c for reading in non-blocking mode.
+2026-09-23T13:20:23.0996531Z Successfully opened named pipe: /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c.
+2026-09-23T13:20:23.1005299Z Successfully removed non-blocking flag from /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c.
+2026-09-23T13:20:23.1007380Z Overriding PORT environment variable with port exposed by container image.
+2026-09-23T13:20:23.4508805Z Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T13:20:23.4512297Z Setting value of PORT variable to 5000
+2026-09-23T13:20:23.4514345Z Creating container with image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d
+2026-09-23T13:20:24.6261129Z Starting container: 896f35e105a2_breast-cancer-classfication-system.
+2026-09-23T13:20:24.7481093Z Starting watchers and probes.
+2026-09-23T13:20:24.7483706Z Starting metrics collection.
+2026-09-23T13:20:24.7662009Z Container is running.
+2026-09-23T13:20:24.7662916Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:20:25.0180036Z Container start method finished after 5280 ms.
+2026-09-23T13:20:25.0188709Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:20:25.0189320Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T13:20:29.7128457Z Site startup probe succeeded after 4.693602 seconds.
+2026-09-23T13:20:29.8328484Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 4.693602 seconds., DetailsLevel: INFO
+2026-09-23T13:20:30.1183606Z Site is running with deployment version: c9a477e26792d5b34210bedab9ffdf25c88c577d1790168316851
+2026-09-23T13:20:30.1240939Z Site started.
+2026-09-23T13:20:30.1249496Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/23/2026 13:20:30 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2612980Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:08:27 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2619528Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:08:27 (UTC), DetailsLevel: INFO
+2026-09-23T13:20:50.2690473Z Container is terminating. Grace period: 5 seconds.
+2026-09-23T13:20:50.2921507Z Stop and delete container. Retry count = 0
+2026-09-23T13:20:50.2922094Z Stopping container: 2703af0cded8_breast-cancer-classfication-system.
+2026-09-23T13:20:51.4211729Z Deleting container: 2703af0cded8_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T13:20:51.6908179Z Container spec TerminationMessagePolicy  path 
+2026-09-23T13:20:51.6917727Z Container is terminated. Total time elapsed: 1422 ms.
+2026-09-23T13:20:51.6921906Z Site: breast-cancer-classfication-system stopped.

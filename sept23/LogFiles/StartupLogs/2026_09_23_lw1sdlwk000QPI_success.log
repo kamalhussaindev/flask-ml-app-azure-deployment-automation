@@ -1,0 +1,268 @@
+========== New Cold Start Attempt (2026-09-23T12:46:28.6325709+00:00) ==========
+2026-09-23T12:46:28.6325709+00:00 ContainerStatus: Site container: breast-cancer-classfication-system terminated. Stopping the entire site.
+2026-09-23T12:46:28.6327027+00:00 ContainerStatus: State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:28, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:28.6327918+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:46:28, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-23T12:46:28.6328091+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T12:46:29.5256353+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:32.6725136+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T12:46:32.6726221+00:00 ContainerStatus: Container start method called.
+2026-09-23T12:46:32.6726604+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:46:32.6727003+00:00 ContainerStatus: Establishing network.
+2026-09-23T12:46:32.6727592+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773.
+2026-09-23T12:49:38.3672297+00:00 ContainerStatus: Image docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 is pulled from registry docker.io
+2026-09-23T12:49:38.3837437+00:00 ContainerStatus: Container is starting.
+2026-09-23T12:49:38.3882144+00:00 ContainerStatus: State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T12:49:38.3943313+00:00 ContainerStatus: Establishing user namespace if not established already.
+2026-09-23T12:49:38.3956760+00:00 ContainerStatus: Establishing network if not established already.
+2026-09-23T12:49:38.3959128+00:00 ContainerStatus: Mounting volumes.
+2026-09-23T12:49:38.4076886+00:00 ContainerStatus: Nested mountpoint volatile/logs
+2026-09-23T12:49:38.4247302+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T12:49:38.4343406+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T12:49:38.5252253+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T12:49:38.6737561+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T12:49:38.6743503+00:00 ContainerStatus: Creating container.
+2026-09-23T12:49:38.6750447+00:00 ContainerStatus: Creating pipes for streaming container io.
+2026-09-23T12:49:38.6751598+00:00 ContainerStatus: Creating stdout named pipe at /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e.
+2026-09-23T12:49:38.7137088+00:00 ContainerStatus: Successfully created stdout named pipe at: /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e.
+2026-09-23T12:49:38.7138133+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e for reading in non-blocking mode.
+2026-09-23T12:49:38.7141807+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e.
+2026-09-23T12:49:38.7142897+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stdout_353dcc49361e4f588ef933bf680bf38e.
+2026-09-23T12:49:38.7232643+00:00 ContainerStatus: Creating stderr named pipe at /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28.
+2026-09-23T12:49:38.7555572+00:00 ContainerStatus: Successfully created stderr named pipe at: /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28.
+2026-09-23T12:49:38.7560201+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28 for reading in non-blocking mode.
+2026-09-23T12:49:38.7642353+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28.
+2026-09-23T12:49:38.7643473+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/91cde4d24153_breast-cancer-classfication-system/stderr_d7bc9b93cab342bd9f91412f7f6beb28.
+2026-09-23T12:49:38.7660189+00:00 ContainerStatus: Overriding PORT environment variable with port exposed by container image.
+2026-09-23T12:49:39.1096707+00:00 ContainerStatus: Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T12:49:39.1177501+00:00 ContainerStatus: Setting value of PORT variable to 5000
+2026-09-23T12:49:39.1209091+00:00 ContainerStatus: Creating container with image: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773 from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:799310069e112e9f1f4dbe02b74d861649d09773
+2026-09-23T12:49:39.9127557+00:00 ContainerStatus: Starting container: 91cde4d24153_breast-cancer-classfication-system.
+2026-09-23T12:49:39.9776893+00:00 ContainerStatus: Starting watchers and probes.
+2026-09-23T12:49:39.9879082+00:00 ContainerStatus: Starting metrics collection.
+2026-09-23T12:49:39.9881017+00:00 ContainerStatus: Container is running.
+2026-09-23T12:49:39.9962402+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T12:49:40.3397205+00:00 ContainerStatus: Container start method finished after 187667 ms.
+2026-09-23T12:49:41.1210362+00:00 ContainerStatus: State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T12:49:41.1499003+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T12:49:42.8452242+00:00 ContainerStream: [2026-09-23 12:49:42 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T12:49:42.8742032+00:00 ContainerStream: [2026-09-23 12:49:42 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T12:49:42.8750351+00:00 ContainerStream: [2026-09-23 12:49:42 +0000] [1] [INFO] Using worker: sync
+2026-09-23T12:49:42.8750653+00:00 ContainerStream: [2026-09-23 12:49:42 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T12:49:45.1660342+00:00 ContainerStatus: Site startup probe succeeded after 3.9328347 seconds.
+2026-09-23T12:49:45.5325163+00:00 ContainerStatus: State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 3.9328347 seconds., DetailsLevel: INFO
+2026-09-23T12:49:46.1667767+00:00 ContainerStatus: Site is running with deployment version: 799310069e112e9f1f4dbe02b74d861649d097731790167564032
+2026-09-23T12:49:46.1678335+00:00 ContainerStatus: Site started.
+2026-09-23T12:49:46.1691146+00:00 ContainerStatus: State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/23/2026 12:49:46 (UTC), DetailsLevel: INFO
+========== New Cold Start Attempt (2026-09-23T12:56:15.3025147+00:00) ==========
+2026-09-23T12:56:15.3025147+00:00 ContainerStatus: State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 09/23/2026 12:49:46 (UTC), DetailsLevel: INFO
+2026-09-23T12:56:15.3026666+00:00 ContainerStatus: Container is terminating. Grace period: 5 seconds.
+2026-09-23T12:56:15.3108029+00:00 ContainerStatus: Stop and delete container. Retry count = 0
+2026-09-23T12:56:15.3108579+00:00 ContainerStatus: Stopping container: 91cde4d24153_breast-cancer-classfication-system.
+2026-09-23T12:56:15.3795885+00:00 ContainerStream: [Previous Container] [2026-09-23 12:56:15 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T12:56:15.6829535+00:00 ContainerStream: [Previous Container] [2026-09-23 12:56:15 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T12:56:15.7660823+00:00 ContainerStatus: Deleting container: 91cde4d24153_breast-cancer-classfication-system. Retry count = 0
+2026-09-23T12:56:15.9761789+00:00 ContainerStatus: Container spec TerminationMessagePolicy  path 
+2026-09-23T12:56:15.9765554+00:00 ContainerStatus: Container is terminated. Total time elapsed: 673 ms.
+2026-09-23T12:56:15.9768610+00:00 ContainerStatus: Site: breast-cancer-classfication-system stopped.
+2026-09-23T13:05:09.7920253+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped at 09/23/2026 12:55:53 (UTC), DetailsLevel: WARN
+2026-09-23T13:05:11.8507590+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped at 09/23/2026 12:55:53 (UTC), DetailsLevel: WARN
+2026-09-23T13:05:11.8508319+00:00 ContainerStatus: Container start method called.
+2026-09-23T13:05:11.8508626+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:05:11.8509012+00:00 ContainerStatus: Establishing network.
+2026-09-23T13:05:11.8509610+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T13:08:19.5813010+00:00 ContainerStatus: Image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d is pulled from registry docker.io
+2026-09-23T13:08:19.5853244+00:00 ContainerStatus: Container is starting.
+2026-09-23T13:08:19.6014276+00:00 ContainerStatus: State: Starting, Action: MountingVolumes, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:08:19.6022694+00:00 ContainerStatus: Establishing user namespace if not established already.
+2026-09-23T13:08:19.6030584+00:00 ContainerStatus: Establishing network if not established already.
+2026-09-23T13:08:19.6031905+00:00 ContainerStatus: Mounting volumes.
+2026-09-23T13:08:19.6228784+00:00 ContainerStatus: Nested mountpoint volatile/logs
+2026-09-23T13:08:19.6416227+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:08:19.6820573+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:08:19.8274030+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:08:19.9460574+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T13:08:19.9480991+00:00 ContainerStatus: Creating container.
+2026-09-23T13:08:19.9660670+00:00 ContainerStatus: Creating pipes for streaming container io.
+2026-09-23T13:08:19.9679800+00:00 ContainerStatus: Creating stdout named pipe at /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc.
+2026-09-23T13:08:19.9756028+00:00 ContainerStatus: Successfully created stdout named pipe at: /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc.
+2026-09-23T13:08:19.9877271+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc for reading in non-blocking mode.
+2026-09-23T13:08:19.9882961+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc.
+2026-09-23T13:08:20.0068230+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stdout_41c513fd3b994a7c88d0a6a61fd335bc.
+2026-09-23T13:08:20.0081157+00:00 ContainerStatus: Creating stderr named pipe at /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502.
+2026-09-23T13:08:20.0082613+00:00 ContainerStatus: Successfully created stderr named pipe at: /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502.
+2026-09-23T13:08:20.0083189+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502 for reading in non-blocking mode.
+2026-09-23T13:08:20.0083704+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502.
+2026-09-23T13:08:20.0084033+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/2703af0cded8_breast-cancer-classfication-system/stderr_7d33bf3902bf4ac68de7e2b94a824502.
+2026-09-23T13:08:20.0367882+00:00 ContainerStatus: Overriding PORT environment variable with port exposed by container image.
+2026-09-23T13:08:20.3301404+00:00 ContainerStatus: Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T13:08:20.3309392+00:00 ContainerStatus: Setting value of PORT variable to 5000
+2026-09-23T13:08:20.3403877+00:00 ContainerStatus: Creating container with image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d
+2026-09-23T13:08:21.4172237+00:00 ContainerStatus: Starting container: 2703af0cded8_breast-cancer-classfication-system.
+2026-09-23T13:08:21.5299916+00:00 ContainerStatus: Starting watchers and probes.
+2026-09-23T13:08:21.5422414+00:00 ContainerStatus: Starting metrics collection.
+2026-09-23T13:08:21.5505610+00:00 ContainerStatus: Container is running.
+2026-09-23T13:08:21.5510397+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:08:21.7117667+00:00 ContainerStatus: Container start method finished after 189860 ms.
+2026-09-23T13:08:21.7862786+00:00 ContainerStatus: State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:08:21.8003221+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T13:08:24.7778382+00:00 ContainerStream: [2026-09-23 13:08:24 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T13:08:24.7968364+00:00 ContainerStream: [2026-09-23 13:08:24 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T13:08:24.7968531+00:00 ContainerStream: [2026-09-23 13:08:24 +0000] [1] [INFO] Using worker: sync
+2026-09-23T13:08:24.7987269+00:00 ContainerStream: [2026-09-23 13:08:24 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T13:08:26.5907886+00:00 ContainerStatus: Site startup probe succeeded after 4.7788419 seconds.
+2026-09-23T13:08:26.7328736+00:00 ContainerStatus: State: Starting, Action: WarmUpProbeSucceeded, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site startup probe succeeded after 4.7788419 seconds., DetailsLevel: INFO
+2026-09-23T13:08:27.0327278+00:00 ContainerStatus: Site is running with deployment version: c9a477e26792d5b34210bedab9ffdf25c88c577d1790168316851
+2026-09-23T13:08:27.0358728+00:00 ContainerStatus: Site started.
+2026-09-23T13:08:27.0365278+00:00 ContainerStatus: State: Started, Action: None, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/23/2026 12:55:52, LastErrorDetails: Site stopped manually or container terminated, Details: Site started at 09/23/2026 13:08:27 (UTC), DetailsLevel: INFO
+========== New Cold Start Attempt (2026-09-23T13:13:05.9534024+00:00) ==========
+2026-09-23T13:13:05.9534024+00:00 ContainerStream: [2026-09-23 13:13:05,944] ERROR in app: Exception on /register [POST]
+2026-09-23T13:13:05.9534440+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:13:05.9534466+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:13:05.9534483+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:13:05.9534503+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:13:05.9534549+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:13:05.9534569+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:13:05.9534585+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:13:05.9534604+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:13:05.9534628+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:13:05.9534646+00:00 ContainerStream:   File "/app/app.py", line 165, in register
+2026-09-23T13:13:05.9534708+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:13:05.9534729+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:13:05.9539392+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:13:05.9539528+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:13:05.9539546+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:13:05.9539567+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:13:05.9539594+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:13:05.9539623+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:13:05.9539639+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:13:05.9539679+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:13:17.5636594+00:00 ContainerStream: [2026-09-23 13:13:17,563] ERROR in app: Exception on /register [POST]
+2026-09-23T13:13:17.5637103+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:13:17.5637130+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:13:17.5637148+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:13:17.5637167+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:13:17.5637184+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:13:17.5637205+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:13:17.5637223+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:13:17.5637242+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:13:17.5637262+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:13:17.5637278+00:00 ContainerStream:   File "/app/app.py", line 165, in register
+2026-09-23T13:13:17.5637295+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:13:17.5637527+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:13:17.5637547+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:13:17.5637566+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:13:17.5637582+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:13:17.5637600+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:13:17.5637616+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:13:17.5637635+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:13:17.5637651+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:13:17.5637670+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:13:25.9521455+00:00 ContainerStream: [2026-09-23 13:13:25,950] ERROR in app: Exception on /login [POST]
+2026-09-23T13:13:25.9521820+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:13:25.9521847+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:13:25.9522000+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:13:25.9522025+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:13:25.9522041+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:13:25.9522061+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:13:25.9522077+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:13:25.9522097+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:13:25.9522163+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:13:25.9522180+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:13:25.9522196+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:13:25.9522217+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:13:25.9522232+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:13:25.9522252+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:13:25.9522268+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:13:25.9522350+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:13:25.9522367+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:13:25.9522386+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:13:25.9522401+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:13:25.9522421+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:18:19.3957389+00:00 ContainerStream: [2026-09-23 13:18:19,389] ERROR in app: Exception on /login [POST]
+2026-09-23T13:18:19.3957830+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:18:19.3957861+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:18:19.3957880+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:18:19.3957901+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:18:19.3957919+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:18:19.3957939+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:18:19.3957956+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:18:19.3957977+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:18:19.3957998+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:18:19.3958017+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:18:19.3958034+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:18:19.3958055+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:18:19.3958096+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:18:19.3958118+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:18:19.3958136+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:18:19.3958156+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:18:19.3958173+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:18:19.3958196+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:18:19.3958213+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:18:19.3958232+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:18:27.6646481+00:00 ContainerStream: [2026-09-23 13:18:27,663] ERROR in app: Exception on /login [POST]
+2026-09-23T13:18:27.6646845+00:00 ContainerStream: Traceback (most recent call last):
+2026-09-23T13:18:27.6646875+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:18:27.6646897+00:00 ContainerStream:     response = self.full_dispatch_request()
+2026-09-23T13:18:27.6646973+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:18:27.6646992+00:00 ContainerStream:     rv = self.handle_user_exception(e)
+2026-09-23T13:18:27.6647013+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:18:27.6647030+00:00 ContainerStream:     rv = self.dispatch_request()
+2026-09-23T13:18:27.6647051+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:18:27.6647072+00:00 ContainerStream:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:18:27.6647089+00:00 ContainerStream:   File "/app/app.py", line 221, in login
+2026-09-23T13:18:27.6647106+00:00 ContainerStream:     cur = mysql.connection.cursor()
+2026-09-23T13:18:27.6647128+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:18:27.6647145+00:00 ContainerStream:     ctx.mysql_db = self.connect
+2026-09-23T13:18:27.6647165+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:18:27.6647183+00:00 ContainerStream:     return MySQLdb.connect(**kwargs)
+2026-09-23T13:18:27.6647220+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:18:27.6647237+00:00 ContainerStream:     return Connection(*args, **kwargs)
+2026-09-23T13:18:27.6647257+00:00 ContainerStream:   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:18:27.6647274+00:00 ContainerStream:     super().__init__(*args, **kwargs2)
+2026-09-23T13:18:27.6647294+00:00 ContainerStream: MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:20:17.4221998+00:00 ContainerStatus: State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:20:19.7367698+00:00 ContainerStatus: State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-09-23T13:20:19.7371505+00:00 ContainerStatus: Container start method called.
+2026-09-23T13:20:19.7459736+00:00 ContainerStatus: State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:20:19.7462632+00:00 ContainerStatus: Establishing network.
+2026-09-23T13:20:19.7463961+00:00 ContainerStatus: Pulling image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d.
+2026-09-23T13:20:22.1945071+00:00 ContainerStatus: Container is starting.
+2026-09-23T13:20:22.1956488+00:00 ContainerStatus: State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for breast-cancer-classfication-system., DetailsLevel: INFO
+2026-09-23T13:20:22.1963551+00:00 ContainerStatus: Establishing user namespace if not established already.
+2026-09-23T13:20:22.1965132+00:00 ContainerStatus: Establishing network if not established already.
+2026-09-23T13:20:22.1969751+00:00 ContainerStatus: Mounting volumes.
+2026-09-23T13:20:22.2054625+00:00 ContainerStatus: Nested mountpoint volatile/logs
+2026-09-23T13:20:22.2365967+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:20:22.6673305+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:20:22.6864348+00:00 ContainerStatus: Nested mountpoint 
+2026-09-23T13:20:23.0083777+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for breast-cancer-classfication-system. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-09-23T13:20:23.0099045+00:00 ContainerStatus: Creating container.
+2026-09-23T13:20:23.0194768+00:00 ContainerStatus: Creating pipes for streaming container io.
+2026-09-23T13:20:23.0203526+00:00 ContainerStatus: Creating stdout named pipe at /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2.
+2026-09-23T13:20:23.0387737+00:00 ContainerStatus: Successfully created stdout named pipe at: /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2.
+2026-09-23T13:20:23.0389019+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2 for reading in non-blocking mode.
+2026-09-23T13:20:23.0393938+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2.
+2026-09-23T13:20:23.0398299+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stdout_c62da6cc9a794de3b524576d9e1116f2.
+2026-09-23T13:20:23.0797279+00:00 ContainerStatus: Creating stderr named pipe at /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c.
+2026-09-23T13:20:23.0990067+00:00 ContainerStatus: Successfully created stderr named pipe at: /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c.
+2026-09-23T13:20:23.0991665+00:00 ContainerStatus: Opening named pipe /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c for reading in non-blocking mode.
+2026-09-23T13:20:23.0996531+00:00 ContainerStatus: Successfully opened named pipe: /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c.
+2026-09-23T13:20:23.1005299+00:00 ContainerStatus: Successfully removed non-blocking flag from /podr/container/pipe/896f35e105a2_breast-cancer-classfication-system/stderr_e2c87300d6eb4792a53591be61e7ad4c.
+2026-09-23T13:20:23.1007380+00:00 ContainerStatus: Overriding PORT environment variable with port exposed by container image.
+2026-09-23T13:20:23.4508805+00:00 ContainerStatus: Container image exposes ports: ContainerExposedPort { Port = 5000, Protocol = TCP }. Sanitized list of ports is: 5000. Resolved main port to 5000.
+2026-09-23T13:20:23.4512297+00:00 ContainerStatus: Setting value of PORT variable to 5000
+2026-09-23T13:20:23.4514345+00:00 ContainerStatus: Creating container with image: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d from registry: docker.io and fully qualified image name: docker.io/kamalhussain611/breast-cancer-app:c9a477e26792d5b34210bedab9ffdf25c88c577d
+2026-09-23T13:20:24.6261129+00:00 ContainerStatus: Starting container: 896f35e105a2_breast-cancer-classfication-system.
+2026-09-23T13:20:24.7481093+00:00 ContainerStatus: Starting watchers and probes.
+2026-09-23T13:20:24.7483706+00:00 ContainerStatus: Starting metrics collection.
+2026-09-23T13:20:24.7662009+00:00 ContainerStatus: Container is running.
+2026-09-23T13:20:24.7662916+00:00 ContainerStatus: State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:20:25.0180036+00:00 ContainerStatus: Container start method finished after 5280 ms.
+2026-09-23T13:20:25.0188709+00:00 ContainerStatus: State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container breast-cancer-classfication-system successfully created and is running., DetailsLevel: INFO
+2026-09-23T13:20:25.0189320+00:00 ContainerStatus: State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-09-23T13:20:27.8433360+00:00 ContainerStream: [2026-09-23 13:20:27 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T13:20:27.8444274+00:00 ContainerStream: [2026-09-23 13:20:27 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T13:20:27.8525994+00:00 ContainerStream: [2026-09-23 13:20:27 +0000] [1] [INFO] Using worker: sync
+2026-09-23T13:20:27.8639422+00:00 ContainerStream: [2026-09-23 13:20:27 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T13:20:29.7128457+00:00 ContainerStatus: Site startup probe succeeded after 4.693602 seconds.
+2026-09-23T13:20:29.8328484+00:00 ContainerStatus: State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 4.693602 seconds., DetailsLevel: INFO

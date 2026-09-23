@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "image": "mysql:8.0",
+    "isMain": false,
+    "targetPort": null,
+    "environmentVariables": [],
+    "startUpCommand": "echo AZURE_STARTUP_TEST && sleep 3600"
+  }
+}

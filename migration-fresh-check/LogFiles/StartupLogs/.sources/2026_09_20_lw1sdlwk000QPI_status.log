@@ -1,0 +1,36 @@
+2026-09-20T11:13:21.8180547Z Site container: breast-cancer-classfication-system_migration terminated. Stopping the entire site.
+2026-09-20T11:13:21.8182078Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-20T11:13:21.8188858Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-20T11:13:21.8189907Z Container is terminating. Grace period: 5 seconds.
+2026-09-20T11:13:21.8388497Z Stop and delete container. Retry count = 0
+2026-09-20T11:13:21.8389210Z Stopping container: 014f6ec9d625_breast-cancer-classfication-system_main.
+2026-09-20T11:13:21.8180735Z Site container: breast-cancer-classfication-system_migration terminated. Stopping the entire site.
+2026-09-20T11:13:21.8182100Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-20T11:13:21.8188911Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-20T11:13:21.8180778Z Site container: breast-cancer-classfication-system_migration terminated. Stopping the entire site.
+2026-09-20T11:13:21.8182110Z State: Stopping, Action: StoppingSite, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-20T11:13:21.8188929Z State: Stopping, Action: StoppingSiteContainers, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site stopped manually or container terminated, DetailsLevel: WARN
+2026-09-20T11:13:21.8395563Z Container is terminating. Grace period: 5 seconds.
+2026-09-20T11:13:21.8483030Z Stop and delete container. Retry count = 0
+2026-09-20T11:13:21.8483870Z Stopping container: a0c5a704f4d1_breast-cancer-classfication-system_mysql.
+2026-09-20T11:13:28.9727637Z Deleting container: 014f6ec9d625_breast-cancer-classfication-system_main. Retry count = 0
+2026-09-20T11:13:29.4948424Z Container spec TerminationMessagePolicy  path 
+2026-09-20T11:13:29.4956178Z Container is terminated. Total time elapsed: 7675 ms.
+2026-09-20T11:13:29.4957450Z Site container: breast-cancer-classfication-system_main terminated during site startup.
+2026-09-20T11:13:29.4958552Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site container: breast-cancer-classfication-system_main terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-20T11:13:29.4957480Z Site container: breast-cancer-classfication-system_main terminated during site startup.
+2026-09-20T11:13:29.4958596Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site container: breast-cancer-classfication-system_main terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-20T11:13:29.4957522Z Site container: breast-cancer-classfication-system_main terminated during site startup.
+2026-09-20T11:13:29.4958606Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site container: breast-cancer-classfication-system_main terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-20T11:13:29.7556443Z Deleting container: a0c5a704f4d1_breast-cancer-classfication-system_mysql. Retry count = 0
+2026-09-20T11:13:29.9783291Z Container spec TerminationMessagePolicy  path 
+2026-09-20T11:13:29.9788821Z Container is terminated. Total time elapsed: 8138 ms.
+2026-09-20T11:13:29.9794041Z Site container: breast-cancer-classfication-system_mysql terminated during site startup.
+2026-09-20T11:13:29.9794135Z Site container: breast-cancer-classfication-system_mysql terminated during site startup.
+2026-09-20T11:13:29.9794173Z Site container: breast-cancer-classfication-system_mysql terminated during site startup.
+2026-09-20T11:13:29.9871823Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site container: breast-cancer-classfication-system_mysql terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-20T11:13:29.9871913Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site container: breast-cancer-classfication-system_mysql terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-20T11:13:29.9871934Z State: Stopping, Action: CancellingStartup, LastError: SiteStartupCancelled, LastErrorTimestamp: 09/20/2026 11:13:21, LastErrorDetails: Site stopped manually or container terminated, Details: Site container: breast-cancer-classfication-system_mysql terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-09-20T11:13:29.9884170Z Site: breast-cancer-classfication-system stopped.
+2026-09-20T11:13:29.9884227Z Site: breast-cancer-classfication-system stopped.
+2026-09-20T11:13:29.9884272Z Site: breast-cancer-classfication-system stopped.

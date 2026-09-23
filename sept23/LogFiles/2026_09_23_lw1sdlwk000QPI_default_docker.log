@@ -1,0 +1,273 @@
+2026-09-23T12:49:42.8452242Z [2026-09-23 12:49:42 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T12:49:42.8742032Z [2026-09-23 12:49:42 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T12:49:42.8750351Z [2026-09-23 12:49:42 +0000] [1] [INFO] Using worker: sync
+2026-09-23T12:49:42.8750653Z [2026-09-23 12:49:42 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T12:50:07.3339476Z [Previous Container] 2026-09-23T12:50:07.309926Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.46).
+2026-09-23T12:50:07.3900402Z [Previous Container] [2026-09-23 12:50:07 +0000] [1] [INFO] Handling signal: term
+2026-09-23T12:50:07.4445947Z [Previous Container] [2026-09-23 12:50:07 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T12:56:15.3700752Z [Previous Container] [2026-09-23 12:56:15 +0000] [1] [INFO] Handling signal: term
+2026-09-23T12:56:15.3795885Z [Previous Container] [2026-09-23 12:56:15 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T12:56:15.6829535Z [Previous Container] [2026-09-23 12:56:15 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T13:08:24.7778382Z [2026-09-23 13:08:24 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T13:08:24.7968364Z [2026-09-23 13:08:24 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T13:08:24.7968531Z [2026-09-23 13:08:24 +0000] [1] [INFO] Using worker: sync
+2026-09-23T13:08:24.7987269Z [2026-09-23 13:08:24 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T13:13:05.9534024Z [2026-09-23 13:13:05,944] ERROR in app: Exception on /register [POST]
+2026-09-23T13:13:05.9534440Z Traceback (most recent call last):
+2026-09-23T13:13:05.9534466Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:13:05.9534483Z     response = self.full_dispatch_request()
+2026-09-23T13:13:05.9534503Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:13:05.9534549Z     rv = self.handle_user_exception(e)
+2026-09-23T13:13:05.9534569Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:13:05.9534585Z     rv = self.dispatch_request()
+2026-09-23T13:13:05.9534604Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:13:05.9534628Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:13:05.9534646Z   File "/app/app.py", line 165, in register
+2026-09-23T13:13:05.9534708Z     cur = mysql.connection.cursor()
+2026-09-23T13:13:05.9534729Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:13:05.9539392Z     ctx.mysql_db = self.connect
+2026-09-23T13:13:05.9539528Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:13:05.9539546Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:13:05.9539567Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:13:05.9539594Z     return Connection(*args, **kwargs)
+2026-09-23T13:13:05.9539623Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:13:05.9539639Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:13:05.9539679Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:13:17.5636594Z [2026-09-23 13:13:17,563] ERROR in app: Exception on /register [POST]
+2026-09-23T13:13:17.5637103Z Traceback (most recent call last):
+2026-09-23T13:13:17.5637130Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:13:17.5637148Z     response = self.full_dispatch_request()
+2026-09-23T13:13:17.5637167Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:13:17.5637184Z     rv = self.handle_user_exception(e)
+2026-09-23T13:13:17.5637205Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:13:17.5637223Z     rv = self.dispatch_request()
+2026-09-23T13:13:17.5637242Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:13:17.5637262Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:13:17.5637278Z   File "/app/app.py", line 165, in register
+2026-09-23T13:13:17.5637295Z     cur = mysql.connection.cursor()
+2026-09-23T13:13:17.5637527Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:13:17.5637547Z     ctx.mysql_db = self.connect
+2026-09-23T13:13:17.5637566Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:13:17.5637582Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:13:17.5637600Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:13:17.5637616Z     return Connection(*args, **kwargs)
+2026-09-23T13:13:17.5637635Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:13:17.5637651Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:13:17.5637670Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:13:25.9521455Z [2026-09-23 13:13:25,950] ERROR in app: Exception on /login [POST]
+2026-09-23T13:13:25.9521820Z Traceback (most recent call last):
+2026-09-23T13:13:25.9521847Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:13:25.9522000Z     response = self.full_dispatch_request()
+2026-09-23T13:13:25.9522025Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:13:25.9522041Z     rv = self.handle_user_exception(e)
+2026-09-23T13:13:25.9522061Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:13:25.9522077Z     rv = self.dispatch_request()
+2026-09-23T13:13:25.9522097Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:13:25.9522163Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:13:25.9522180Z   File "/app/app.py", line 221, in login
+2026-09-23T13:13:25.9522196Z     cur = mysql.connection.cursor()
+2026-09-23T13:13:25.9522217Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:13:25.9522232Z     ctx.mysql_db = self.connect
+2026-09-23T13:13:25.9522252Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:13:25.9522268Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:13:25.9522350Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:13:25.9522367Z     return Connection(*args, **kwargs)
+2026-09-23T13:13:25.9522386Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:13:25.9522401Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:13:25.9522421Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:18:19.3957389Z [2026-09-23 13:18:19,389] ERROR in app: Exception on /login [POST]
+2026-09-23T13:18:19.3957830Z Traceback (most recent call last):
+2026-09-23T13:18:19.3957861Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:18:19.3957880Z     response = self.full_dispatch_request()
+2026-09-23T13:18:19.3957901Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:18:19.3957919Z     rv = self.handle_user_exception(e)
+2026-09-23T13:18:19.3957939Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:18:19.3957956Z     rv = self.dispatch_request()
+2026-09-23T13:18:19.3957977Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:18:19.3957998Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:18:19.3958017Z   File "/app/app.py", line 221, in login
+2026-09-23T13:18:19.3958034Z     cur = mysql.connection.cursor()
+2026-09-23T13:18:19.3958055Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:18:19.3958096Z     ctx.mysql_db = self.connect
+2026-09-23T13:18:19.3958118Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:18:19.3958136Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:18:19.3958156Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:18:19.3958173Z     return Connection(*args, **kwargs)
+2026-09-23T13:18:19.3958196Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:18:19.3958213Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:18:19.3958232Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:18:27.6646481Z [2026-09-23 13:18:27,663] ERROR in app: Exception on /login [POST]
+2026-09-23T13:18:27.6646845Z Traceback (most recent call last):
+2026-09-23T13:18:27.6646875Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:18:27.6646897Z     response = self.full_dispatch_request()
+2026-09-23T13:18:27.6646973Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:18:27.6646992Z     rv = self.handle_user_exception(e)
+2026-09-23T13:18:27.6647013Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:18:27.6647030Z     rv = self.dispatch_request()
+2026-09-23T13:18:27.6647051Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:18:27.6647072Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:18:27.6647089Z   File "/app/app.py", line 221, in login
+2026-09-23T13:18:27.6647106Z     cur = mysql.connection.cursor()
+2026-09-23T13:18:27.6647128Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:18:27.6647145Z     ctx.mysql_db = self.connect
+2026-09-23T13:18:27.6647165Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:18:27.6647183Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:18:27.6647220Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:18:27.6647237Z     return Connection(*args, **kwargs)
+2026-09-23T13:18:27.6647257Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:18:27.6647274Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:18:27.6647294Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:20:27.8433360Z [2026-09-23 13:20:27 +0000] [1] [INFO] Starting gunicorn 23.0.0
+2026-09-23T13:20:27.8444274Z [2026-09-23 13:20:27 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-09-23T13:20:27.8525994Z [2026-09-23 13:20:27 +0000] [1] [INFO] Using worker: sync
+2026-09-23T13:20:27.8639422Z [2026-09-23 13:20:27 +0000] [7] [INFO] Booting worker with pid: 7
+2026-09-23T13:20:50.9531416Z [Previous Container] [2026-09-23 13:20:50 +0000] [1] [INFO] Handling signal: term
+2026-09-23T13:20:50.9641999Z [Previous Container] [2026-09-23 13:20:50 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-09-23T13:20:51.2848983Z [Previous Container] [2026-09-23 13:20:51 +0000] [1] [INFO] Shutting down: Master
+2026-09-23T13:22:36.6831518Z [2026-09-23 13:22:36,674] ERROR in app: Exception on /login [POST]
+2026-09-23T13:22:36.6831899Z Traceback (most recent call last):
+2026-09-23T13:22:36.6831923Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:22:36.6831939Z     response = self.full_dispatch_request()
+2026-09-23T13:22:36.6831957Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:22:36.6831990Z     rv = self.handle_user_exception(e)
+2026-09-23T13:22:36.6832008Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:22:36.6832023Z     rv = self.dispatch_request()
+2026-09-23T13:22:36.6832041Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:22:36.6832063Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:22:36.6832078Z   File "/app/app.py", line 221, in login
+2026-09-23T13:22:36.6832134Z     cur = mysql.connection.cursor()
+2026-09-23T13:22:36.6832152Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:22:36.6832166Z     ctx.mysql_db = self.connect
+2026-09-23T13:22:36.6832184Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:22:36.6832199Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:22:36.6832217Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:22:36.6832234Z     return Connection(*args, **kwargs)
+2026-09-23T13:22:36.6832252Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:22:36.6832266Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:22:36.6832283Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:22:45.8964211Z [2026-09-23 13:22:45,893] ERROR in app: Exception on /login [POST]
+2026-09-23T13:22:45.8964780Z Traceback (most recent call last):
+2026-09-23T13:22:45.8964806Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:22:45.8964823Z     response = self.full_dispatch_request()
+2026-09-23T13:22:45.8964841Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:22:45.8964856Z     rv = self.handle_user_exception(e)
+2026-09-23T13:22:45.8964873Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:22:45.8964887Z     rv = self.dispatch_request()
+2026-09-23T13:22:45.8964904Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:22:45.8964923Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:22:45.8964938Z   File "/app/app.py", line 221, in login
+2026-09-23T13:22:45.8964953Z     cur = mysql.connection.cursor()
+2026-09-23T13:22:45.8964971Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:22:45.8965009Z     ctx.mysql_db = self.connect
+2026-09-23T13:22:45.8965027Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:22:45.8965042Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:22:45.8965060Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:22:45.8965074Z     return Connection(*args, **kwargs)
+2026-09-23T13:22:45.8965093Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:22:45.8965107Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:22:45.8965124Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:23:00.5312353Z [2026-09-23 13:23:00,529] ERROR in app: Exception on /login [POST]
+2026-09-23T13:23:00.5312811Z Traceback (most recent call last):
+2026-09-23T13:23:00.5312839Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:23:00.5312866Z     response = self.full_dispatch_request()
+2026-09-23T13:23:00.5312944Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:23:00.5312961Z     rv = self.handle_user_exception(e)
+2026-09-23T13:23:00.5312980Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:23:00.5312995Z     rv = self.dispatch_request()
+2026-09-23T13:23:00.5313015Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:23:00.5313033Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:23:00.5313049Z   File "/app/app.py", line 221, in login
+2026-09-23T13:23:00.5313065Z     cur = mysql.connection.cursor()
+2026-09-23T13:23:00.5313083Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:23:00.5313099Z     ctx.mysql_db = self.connect
+2026-09-23T13:23:00.5313117Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:23:00.5313132Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:23:00.5313174Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:23:00.5313189Z     return Connection(*args, **kwargs)
+2026-09-23T13:23:00.5313207Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:23:00.5313222Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:23:00.5313239Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:23:19.2665121Z [2026-09-23 13:23:19,263] ERROR in app: Exception on /login [POST]
+2026-09-23T13:23:19.2665577Z Traceback (most recent call last):
+2026-09-23T13:23:19.2665606Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:23:19.2665625Z     response = self.full_dispatch_request()
+2026-09-23T13:23:19.2665643Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:23:19.2665658Z     rv = self.handle_user_exception(e)
+2026-09-23T13:23:19.2665679Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:23:19.2665756Z     rv = self.dispatch_request()
+2026-09-23T13:23:19.2665776Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:23:19.2665796Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:23:19.2665810Z   File "/app/app.py", line 221, in login
+2026-09-23T13:23:19.2665825Z     cur = mysql.connection.cursor()
+2026-09-23T13:23:19.2665843Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:23:19.2665858Z     ctx.mysql_db = self.connect
+2026-09-23T13:23:19.2665877Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:23:19.2665891Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:23:19.2665909Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:23:19.2665925Z     return Connection(*args, **kwargs)
+2026-09-23T13:23:19.2665942Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:23:19.2665981Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:23:19.2665999Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:23:26.3814400Z [2026-09-23 13:23:26,373] ERROR in app: Exception on /login [POST]
+2026-09-23T13:23:26.3814858Z Traceback (most recent call last):
+2026-09-23T13:23:26.3814881Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:23:26.3814898Z     response = self.full_dispatch_request()
+2026-09-23T13:23:26.3814916Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:23:26.3814931Z     rv = self.handle_user_exception(e)
+2026-09-23T13:23:26.3814950Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:23:26.3814964Z     rv = self.dispatch_request()
+2026-09-23T13:23:26.3814982Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:23:26.3815000Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:23:26.3815014Z   File "/app/app.py", line 221, in login
+2026-09-23T13:23:26.3815030Z     cur = mysql.connection.cursor()
+2026-09-23T13:23:26.3815048Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:23:26.3815084Z     ctx.mysql_db = self.connect
+2026-09-23T13:23:26.3815103Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:23:26.3815117Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:23:26.3815134Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:23:26.3815150Z     return Connection(*args, **kwargs)
+2026-09-23T13:23:26.3815167Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:23:26.3815183Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:23:26.3815200Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:23:45.1026657Z [2026-09-23 13:23:45,101] ERROR in app: Exception on /login [POST]
+2026-09-23T13:23:45.1027044Z Traceback (most recent call last):
+2026-09-23T13:23:45.1027074Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:23:45.1027094Z     response = self.full_dispatch_request()
+2026-09-23T13:23:45.1027174Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:23:45.1027193Z     rv = self.handle_user_exception(e)
+2026-09-23T13:23:45.1027214Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:23:45.1027230Z     rv = self.dispatch_request()
+2026-09-23T13:23:45.1027251Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:23:45.1027273Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:23:45.1027290Z   File "/app/app.py", line 221, in login
+2026-09-23T13:23:45.1027307Z     cur = mysql.connection.cursor()
+2026-09-23T13:23:45.1027329Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:23:45.1027346Z     ctx.mysql_db = self.connect
+2026-09-23T13:23:45.1027366Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:23:45.1027383Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:23:45.1027419Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:23:45.1027437Z     return Connection(*args, **kwargs)
+2026-09-23T13:23:45.1027457Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:23:45.1027474Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:23:45.1027494Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
+2026-09-23T13:25:20.5431900Z [2026-09-23 13:25:20,538] ERROR in app: Exception on /login [POST]
+2026-09-23T13:25:20.5432267Z Traceback (most recent call last):
+2026-09-23T13:25:20.5432294Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T13:25:20.5432310Z     response = self.full_dispatch_request()
+2026-09-23T13:25:20.5432329Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T13:25:20.5432344Z     rv = self.handle_user_exception(e)
+2026-09-23T13:25:20.5432362Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T13:25:20.5432441Z     rv = self.dispatch_request()
+2026-09-23T13:25:20.5432461Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T13:25:20.5432480Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T13:25:20.5432495Z   File "/app/app.py", line 221, in login
+2026-09-23T13:25:20.5432510Z     cur = mysql.connection.cursor()
+2026-09-23T13:25:20.5432529Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T13:25:20.5432544Z     ctx.mysql_db = self.connect
+2026-09-23T13:25:20.5432562Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T13:25:20.5432578Z     return MySQLdb.connect(**kwargs)
+2026-09-23T13:25:20.5432595Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T13:25:20.5432611Z     return Connection(*args, **kwargs)
+2026-09-23T13:25:20.5432628Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T13:25:20.5432659Z     super().__init__(*args, **kwargs2)
+2026-09-23T13:25:20.5432679Z MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")

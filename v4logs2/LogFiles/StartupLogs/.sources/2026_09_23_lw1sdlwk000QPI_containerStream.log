@@ -1,0 +1,21 @@
+2026-09-23T21:52:17.4225331Z [2026-09-23 21:52:17,401] ERROR in app: Exception on /login [POST]
+2026-09-23T21:52:17.4225682Z Traceback (most recent call last):
+2026-09-23T21:52:17.4225707Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+2026-09-23T21:52:17.4225724Z     response = self.full_dispatch_request()
+2026-09-23T21:52:17.4225746Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+2026-09-23T21:52:17.4225772Z     rv = self.handle_user_exception(e)
+2026-09-23T21:52:17.4225790Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+2026-09-23T21:52:17.4225805Z     rv = self.dispatch_request()
+2026-09-23T21:52:17.4225823Z   File "/root/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+2026-09-23T21:52:17.4225847Z     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+2026-09-23T21:52:17.4225935Z   File "/app/app.py", line 221, in login
+2026-09-23T21:52:17.4225950Z     cur = mysql.connection.cursor()
+2026-09-23T21:52:17.4225968Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 109, in connection
+2026-09-23T21:52:17.4225984Z     ctx.mysql_db = self.connect
+2026-09-23T21:52:17.4226002Z   File "/root/.local/lib/python3.9/site-packages/flask_mysqldb/__init__.py", line 97, in connect
+2026-09-23T21:52:17.4226017Z     return MySQLdb.connect(**kwargs)
+2026-09-23T21:52:17.4226035Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+2026-09-23T21:52:17.4226052Z     return Connection(*args, **kwargs)
+2026-09-23T21:52:17.4226070Z   File "/root/.local/lib/python3.9/site-packages/MySQLdb/connections.py", line 200, in __init__
+2026-09-23T21:52:17.4226084Z     super().__init__(*args, **kwargs2)
+2026-09-23T21:52:17.4226101Z MySQLdb.OperationalError: (2005, "Unknown server host 'mysql' (-2)")

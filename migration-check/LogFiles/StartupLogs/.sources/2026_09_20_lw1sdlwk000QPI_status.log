@@ -1,0 +1,26 @@
+2026-09-20T10:53:01.5430349Z State: Stopping, Action: StoppingSite, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/20/2026 10:43:46, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/20/2026 10:49:52 (UTC), DetailsLevel: INFO
+2026-09-20T10:53:01.5516165Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/20/2026 10:43:46, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/20/2026 10:49:52 (UTC), DetailsLevel: INFO
+2026-09-20T10:53:01.5523236Z Container is terminating. Grace period: 5 seconds.
+2026-09-20T10:53:01.5801360Z Stop and delete container. Retry count = 0
+2026-09-20T10:53:01.5801948Z Stopping container: 81b31e2bb45b_breast-cancer-classfication-system_main.
+2026-09-20T10:53:01.5430543Z State: Stopping, Action: StoppingSite, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/20/2026 10:43:46, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/20/2026 10:49:52 (UTC), DetailsLevel: INFO
+2026-09-20T10:53:01.5516230Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/20/2026 10:43:46, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/20/2026 10:49:52 (UTC), DetailsLevel: INFO
+2026-09-20T10:53:01.5803366Z Container is terminating. Grace period: 5 seconds.
+2026-09-20T10:53:01.5912324Z Stop and delete container. Retry count = 0
+2026-09-20T10:53:01.5913317Z Stopping container: 753846898ff2_breast-cancer-classfication-system_migration.
+2026-09-20T10:53:01.5430580Z State: Stopping, Action: StoppingSite, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/20/2026 10:43:46, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/20/2026 10:49:52 (UTC), DetailsLevel: INFO
+2026-09-20T10:53:01.5516242Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerStartupFailure, LastErrorTimestamp: 09/20/2026 10:43:46, LastErrorDetails: The container did not complete startup successfully. Please inspect your container logs for more details., Details: Site started at 09/20/2026 10:49:52 (UTC), DetailsLevel: INFO
+2026-09-20T10:53:01.6002278Z Container is terminating. Grace period: 5 seconds.
+2026-09-20T10:53:01.6023426Z Stop and delete container. Retry count = 0
+2026-09-20T10:53:01.6104610Z Stopping container: c8a0caaedc12_breast-cancer-classfication-system_mysql.
+2026-09-20T10:53:02.7197056Z Deleting container: 81b31e2bb45b_breast-cancer-classfication-system_main. Retry count = 0
+2026-09-20T10:53:03.8139756Z Container spec TerminationMessagePolicy  path 
+2026-09-20T10:53:03.8148184Z Container is terminated. Total time elapsed: 2262 ms.
+2026-09-20T10:53:04.3457939Z Deleting container: c8a0caaedc12_breast-cancer-classfication-system_mysql. Retry count = 0
+2026-09-20T10:53:05.3281292Z Container spec TerminationMessagePolicy  path 
+2026-09-20T10:53:05.3288894Z Container is terminated. Total time elapsed: 3727 ms.
+2026-09-20T10:53:06.8913029Z Deleting container: 753846898ff2_breast-cancer-classfication-system_migration. Retry count = 0
+2026-09-20T10:53:07.7439410Z Container spec TerminationMessagePolicy  path 
+2026-09-20T10:53:07.7652002Z Site: breast-cancer-classfication-system stopped.
+ms.
+2026-09-20T10:53:07.7559153Z Site: breast-cancer-classfication-system stopped.

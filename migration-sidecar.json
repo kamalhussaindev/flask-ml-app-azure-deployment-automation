@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "image": "mysql:8.0",
+    "isMain": false,
+    "targetPort": null,
+    "environmentVariables": [
+      {
+        "name": "DB_MIGRATION_SAS",
+        "value": "DB_MIGRATION_SAS"
+      },
+      {
+        "name": "MYSQL_ROOT_PASSWORD",
+        "value": "MYSQL_ROOT_PASSWORD"
+      }
+    ],
+    "startUpCommand": "sh -c 'curl -fsSL \"$DB_MIGRATION_SAS\" -o /tmp/epca.sql && until mysqladmin ping -h 127.0.0.1 -uroot -p\"$MYSQL_ROOT_PASSWORD\" --silent; do sleep 2; done && mysql -h 127.0.0.1 -uroot -p\"$MYSQL_ROOT_PASSWORD\" < /tmp/epca.sql && echo DATABASE_IMPORT_COMPLETED && sleep 3600'"
+  }
+}
