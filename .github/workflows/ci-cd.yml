@@ -20,20 +20,39 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build and Push Docker image
+      - name: Build and Push Flask image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:latest .
           docker build -t ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:${{ github.sha }} .
-          docker push ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:latest .
           docker push ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:${{ github.sha }}
+          docker push ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:latest
+
+      - name: Build and Push MySQL image
+        run: |
+          docker build -f Dockerfile.mysql -t ${{ secrets.DOCKER_USERNAME }}/breast-cancer-mysql:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/breast-cancer-mysql:latest
 
       - name: Azure Login
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v2
-        with:
-          app-name: ${{ secrets.AZURE_WEBAPP_NAME }}
-          images: ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:${{ github.sha }}
+      - name: Deploy to Azure Site Containers
+        run: |
+          # Ensure SITECONTAINERS mode
+          az webapp config set \
+            --name ${{ secrets.AZURE_WEBAPP_NAME }} \
+            --resource-group flask-ml-app-azure-deployment-automation \
+            --linux-fx-version "SITECONTAINERS"
+
+          # Update main container image
+          az webapp sitecontainers update \
+            --name ${{ secrets.AZURE_WEBAPP_NAME }} \
+            --resource-group flask-ml-app-azure-deployment-automation \
+            --container-name main \
+            --image ${{ secrets.DOCKER_USERNAME }}/breast-cancer-app:${{ github.sha }}
+
+          # Restart
+          az webapp restart \
+            --name ${{ secrets.AZURE_WEBAPP_NAME }} \
+            --resource-group flask-ml-app-azure-deployment-automation
